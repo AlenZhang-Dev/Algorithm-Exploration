@@ -16,3 +16,7 @@
 [h]:./Hard
 
 [1]:./Easy/0001-Two%20Sum/README.md#1-two-sum
+
+[1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python 
+
+[1l]:https://leetcode.com/problems/two-sum/ 
