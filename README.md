@@ -21,4 +21,4 @@
 
 [1sr]:./Easy/0001-Two%20Sum/README.md#solutions-rust 
 
-[1l]:https://leetcode.com/problems/two-sum/ 
+[1l]:https://leetcode.com/problems/two-sum/
