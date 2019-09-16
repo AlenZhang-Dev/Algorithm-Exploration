@@ -19,4 +19,6 @@
 
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python 
 
+[1sr]:./Easy/0001-Two%20Sum/README.md#solutions-rust 
+
 [1l]:https://leetcode.com/problems/two-sum/ 
