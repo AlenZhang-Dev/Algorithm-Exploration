@@ -4,7 +4,7 @@
 
 | #    | Title                | Solution                                            | Difficulty        |  Coding    |
 | ----| ------------      | ----------------------------------          | ----------        | ----------   |
-| 1    | [Two Sum][1] | [![p]][1sp]&nbsp;&nbsp;[![r]][1sr]        | [Easy][e]         | [![l]][1l]       |
+| 1    | [Two Sum][1] | [![p]][1sp]&nbsp;&nbsp;[![r]][1sr]&nbsp;&nbsp;[![c][1sc]       | [Easy][e]         | [![l]][1l]       |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
