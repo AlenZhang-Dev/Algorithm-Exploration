@@ -28,8 +28,8 @@
 [11]:./Medium/0011-Container%20With%20Most%20Water/README.md#11-container-with-most-water
 [20]:./Easy/0020-Valid%20Parentheses/README.md#20-valid-parentheses
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
-[26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#21-Remove-Duplicate-from-Sorted-Array
-[27]:./Easy/0027-Remove%20Element/README.md#21-Remove-Element
+[26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
+[27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
