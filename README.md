@@ -12,6 +12,7 @@
 | 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |[![l]][21l]  |
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |[![l]][26l]  |
 | 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |[![l]][27l]  |
+| 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -30,6 +31,7 @@
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
+[28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strStr()
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
@@ -44,6 +46,7 @@
 [21sc]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#solutions-c
 [26sc]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#solutions-c
 [27sc]:./Easy/0027-Remove%20Element/README.md#solutions-c
+[28sc]:./Easy/0028-Implement%20strStr()/README.md#solutions-c
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
@@ -53,6 +56,7 @@
 [21l]:https://leetcode.com/problems/merge-two-sorted-lists/
 [26l]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [27l]:https://leetcode.com/problems/remove-element/
+[28l]:https://leetcode.com/problems/implement-strstr/
 
  
 
