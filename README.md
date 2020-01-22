@@ -13,6 +13,8 @@
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |[![l]][26l]  |
 | 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |[![l]][27l]  |
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
+
+
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
