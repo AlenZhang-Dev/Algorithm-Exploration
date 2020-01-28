@@ -14,7 +14,8 @@
 | 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |[![l]][27l]  |
 | 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
-
+| 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
+| 53 |[Maximum Subarray][35] |[![c]][53sc]  |[Easy][e] |[![l]][53l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -35,6 +36,8 @@
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
 [28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr()
 [35]:./Easy/0035-Search%20Insert%20Position/README.md#35-search-insert-position
+[38]:./Easy/0038-Count%20and%20Say/README.md#38-count-and-say
+[53]:./Easy/0053-Maximum%20Subarray/README.md#53-maximum-subarray
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
@@ -51,6 +54,8 @@
 [27sc]:./Easy/0027-Remove%20Element/README.md#solutions-c
 [28sc]:./Easy/0028-Implement%20strStr()/README.md#solutions-c
 [35sc]:./Easy/0035-Search%20Insert%20Position/README.md#solutions-c
+[38sc]:./Easy/0038-Count%20and%20Say/README.md#solutions-c
+[53sc]:./Easy/0053-Maximum%20Subarray/README.md#solutions-c
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
@@ -62,6 +67,7 @@
 [27l]:https://leetcode.com/problems/remove-element/
 [28l]:https://leetcode.com/problems/implement-strstr/
 [35l]:https://leetcode.com/problems/search-insert-position/
-
+[38l]:https://leetcode.com/problems/count-and-say/
+[53l]:https://leetcode.com/problems/maximum-subarray/
  
 
