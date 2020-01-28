@@ -15,7 +15,7 @@
 | 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
 | 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
-| 53 |[Maximum Subarray][35] |[![c]][53sc]  |[Easy][e] |[![l]][53l]  |
+| 53 |[Maximum Subarray][53] |[![c]][53sc]  |[Easy][e] |[![l]][53l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -69,5 +69,5 @@
 [35l]:https://leetcode.com/problems/search-insert-position/
 [38l]:https://leetcode.com/problems/count-and-say/
 [53l]:https://leetcode.com/problems/maximum-subarray/
- 
+
 
