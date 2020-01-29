@@ -4,10 +4,10 @@
 
 | #    | Title                | Solutions                                        | Difficulty        |  Source  |
 | ----| ------------      | ----------------------------------          | ----------        | ----------   |
-| 1    | [Two Sum][1] | [![p]][1sp]&nbsp;&nbsp;[![r]][1sr]&nbsp;&nbsp;[![c]][1sc]       | [Easy][e]         | [![l]][1l]     |
-| 7 | [Reverse Integer][7] | [![p]][7sp]&nbsp;&nbsp;[![c]][7sc] |[Easy][e]  |[![l]][7l]  |
-| 9 |[Palindrome Number][9]  |[![p]][9sp]&nbsp;&nbsp;[![c]][9sc]  |[Easy][e] |[![l]][9l]  |
-| 11 |[Container With Most Water][11]  |[![r]][11sr]&nbsp;&nbsp;[![c]][11sc]  |[Medium][m] |[![l]][11l]  |
+| 1    | [Two Sum][1] |[![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr] | [Easy][e]         | [![l]][1l]     |
+| 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |[![l]][7l]  |
+| 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |[![l]][9l]  |
+| 11 |[Container With Most Water][11]  |[![c]][11sc]&nbsp;&nbsp;[![r]][11sr]  |[Medium][m] |[![l]][11l]  |
 | 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |[![l]][20l]  |
 | 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |[![l]][21l]  |
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |[![l]][26l]  |
@@ -15,12 +15,13 @@
 | 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
 | 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
-| 53 |[Maximum Subarray][53] |[![c]][53sc]  |[Easy][e] |[![l]][53l]  |
+| 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |[![l]][53l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
 [c]:./ico/c.png
+[j]:./ico/java.png
 
 [e]:./Easy
 [m]:./Medium
@@ -56,6 +57,8 @@
 [35sc]:./Easy/0035-Search%20Insert%20Position/README.md#solutions-c
 [38sc]:./Easy/0038-Count%20and%20Say/README.md#solutions-c
 [53sc]:./Easy/0053-Maximum%20Subarray/README.md#solutions-c
+[53sp]:./Easy/0053-Maximum%20Subarray/README.md#solutions-python
+[53sj]:./Easy/0053-Maximum%20Subarray/README.md#solutions-java
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
