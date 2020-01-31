@@ -16,6 +16,7 @@
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
 | 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
 | 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |[![l]][53l]  |
+| 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |[![l]][58l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -39,6 +40,7 @@
 [35]:./Easy/0035-Search%20Insert%20Position/README.md#35-search-insert-position
 [38]:./Easy/0038-Count%20and%20Say/README.md#38-count-and-say
 [53]:./Easy/0053-Maximum%20Subarray/README.md#53-maximum-subarray
+[58]:./Easy/0058-Length%20of%20Last%20Word/README.md#58-length-of-last-word
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
@@ -59,6 +61,7 @@
 [53sc]:./Easy/0053-Maximum%20Subarray/README.md#solutions-c
 [53sp]:./Easy/0053-Maximum%20Subarray/README.md#solutions-python
 [53sj]:./Easy/0053-Maximum%20Subarray/README.md#solutions-java
+[58sc]:./Easy/0058-Length%20of%20Last%20Word/README.md#solutions-c
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
@@ -72,5 +75,6 @@
 [35l]:https://leetcode.com/problems/search-insert-position/
 [38l]:https://leetcode.com/problems/count-and-say/
 [53l]:https://leetcode.com/problems/maximum-subarray/
+[58l]:https://leetcode.com/problems/length-of-last-word/
 
 
