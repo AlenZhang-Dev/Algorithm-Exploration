@@ -19,6 +19,7 @@
 | 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |[![l]][58l]  |
 | 66 |[Plus One][66] |[![c]][66sc]&nbsp;&nbsp;[![j]][66sj]  |[Easy][e] |[![l]][66l]  |
 | 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |[![l]][67l]  |
+| 69 |[Sqrt][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -45,6 +46,7 @@
 [58]:./Easy/0058-Length%20of%20Last%20Word/README.md#58-length-of-last-word
 [66]:./Easy/0066-Plus%20One/README.md#66-plus-one
 [67]:./Easy/0067-Add%20Binary/README.md#67-add-binary
+[69]:./Easy/0069-Sqrt(x)/README.md#69-sqrt(x)
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
@@ -69,6 +71,7 @@
 [66sc]:./Easy/0066-Plus%20One/README.md#solutions-c
 [66sj]:./Easy/0066-Plus%20One/README.md#solutions-java
 [67sc]:./Easy/0067-Add%20Binary/README.md#solutions-c
+[69sc]:./Easy/0069-Sqrt(x)/README.md#solutions-c
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
@@ -85,4 +88,5 @@
 [58l]:https://leetcode.com/problems/length-of-last-word/
 [66l]:https://leetcode-cn.com/problems/plus-one/
 [67l]:https://leetcode-cn.com/problems/add-binary/
+[69l]:https://leetcode.com/problems/sqrtx/
 
