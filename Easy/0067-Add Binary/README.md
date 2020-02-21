@@ -33,7 +33,7 @@ char * addBinary(char * a, char * b){
     memset(c, '0', length);
     c[length - 1] = '\0';
     for(length -= 2; length > 0; length--){
-        int an = (alen > 0) ? a[--alen] - '0'  : 0;
+        int an = (alen > 0) ? a[--alen] - '0' : 0;
         int bn = (blen > 0) ? b[--blen] - '0' : 0;
         c[length] += (an + bn);
         if(c[length] == '2'){
