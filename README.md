@@ -1,4 +1,4 @@
-#  Leetcode Solutions
+#    Leetcode Solutions
 
 
 
@@ -19,7 +19,7 @@
 | 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |[![l]][58l]  |
 | 66 |[Plus One][66] |[![c]][66sc]&nbsp;&nbsp;[![j]][66sj]  |[Easy][e] |[![l]][66l]  |
 | 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |[![l]][67l]  |
-| 69 |[Sqrt][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
+| 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 
 [p]:./ico/python.ico
@@ -74,8 +74,8 @@
 [66sj]:./Easy/0066-Plus%20One/README.md#solutions-java
 [67sc]:./Easy/0067-Add%20Binary/README.md#solutions-c
 [69sc]:./Easy/0069-Sqrt(x)/README.md#solutions-c
-[70sc]:./Easy/0070-Climbing%Stairs/README.md#solutions-c
-[70sj]:./Easy/0070-Climbing%Stairs/README.md#solutions-java
+[70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
+[70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
