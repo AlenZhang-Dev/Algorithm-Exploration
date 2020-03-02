@@ -40,14 +40,14 @@
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
-[28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr()
+[28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr
 [35]:./Easy/0035-Search%20Insert%20Position/README.md#35-search-insert-position
 [38]:./Easy/0038-Count%20and%20Say/README.md#38-count-and-say
 [53]:./Easy/0053-Maximum%20Subarray/README.md#53-maximum-subarray
 [58]:./Easy/0058-Length%20of%20Last%20Word/README.md#58-length-of-last-word
 [66]:./Easy/0066-Plus%20One/README.md#66-plus-one
 [67]:./Easy/0067-Add%20Binary/README.md#67-add-binary
-[69]:./Easy/0069-Sqrt(x)/README.md#69-sqrt(x)
+[69]:./Easy/0069-Sqrt(x)/README.md#69-sqrtx
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
