@@ -48,7 +48,7 @@
 [66]:./Easy/0066-Plus%20One/README.md#66-plus-one
 [67]:./Easy/0067-Add%20Binary/README.md#67-add-binary
 [69]:./Easy/0069-Sqrt(x)/README.md#69-sqrt(x)
-[70]:./Easy/0070-Climbing%Stairs/README.md#70-climbing-stairs
+[70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
