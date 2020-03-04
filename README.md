@@ -21,6 +21,7 @@
 | 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |[![l]][67l]  |
 | 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
+| 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -49,6 +50,7 @@
 [67]:./Easy/0067-Add%20Binary/README.md#67-add-binary
 [69]:./Easy/0069-Sqrt(x)/README.md#69-sqrtx
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
+[121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
 [1sp]:./Easy/0001-Two%20Sum/README.md#solutions-python
@@ -76,6 +78,8 @@
 [69sc]:./Easy/0069-Sqrt(x)/README.md#solutions-c
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
+[121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
+[121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 
 [1l]:https://leetcode.com/problems/two-sum/
 [7l]:https://leetcode.com/problems/reverse-integer/
@@ -94,3 +98,4 @@
 [67l]:https://leetcode-cn.com/problems/add-binary/
 [69l]:https://leetcode.com/problems/sqrtx/
 [70l]:https://leetcode.com/problems/climbing-stairs/
+[121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
