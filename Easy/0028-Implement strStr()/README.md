@@ -1,4 +1,4 @@
-# 28.  Implement strStr()
+# 28. Implement strStr()
 
 Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 
