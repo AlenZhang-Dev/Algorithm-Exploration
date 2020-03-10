@@ -83,7 +83,7 @@
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
-[198sc]:./Easy/0198-House%20Robber/README.mdr#solutions-c
+[198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
 
 
 [1l]:https://leetcode.com/problems/two-sum/
