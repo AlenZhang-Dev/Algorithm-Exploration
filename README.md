@@ -56,7 +56,7 @@
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
-[303]:./Easy/0303-Range%20Sum%20Query-Immutable/README,md#303-range-sum-query
+[303]:./Easy/0303-Range%20Sum%20Query-Immutable/README.md#303-range-sum-query
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -114,5 +114,5 @@
 [70l]:https://leetcode.com/problems/climbing-stairs/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [198l]:https://leetcode.com/problems/house-robber/
-[303]:https://leetcode-cn.com/problems/range-sum-query-immutable/
+[303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
