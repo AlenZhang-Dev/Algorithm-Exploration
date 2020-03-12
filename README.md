@@ -56,7 +56,7 @@
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
-[303]:./Easy/0303-Range%20Sum%20Query-Immutable/README.md#303-range-sum-query
+[303]:./Easy/0303-0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -89,8 +89,8 @@
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
-[303sc]:./Easy/0303-Range%20Sum%20Query-Immutable/README,md#303-range-sum-query#solutions-c
-[303sj]:./Easy/0303-Range%20Sum%20Query-Immutable/README,md#303-range-sum-query#solutions-java
+[303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README,md#solutions-c
+[303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README,md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 
