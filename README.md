@@ -21,7 +21,9 @@
 | 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |[![l]][67l]  |
 | 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
+| 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
+| 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |[![l]][122l]  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
@@ -54,6 +56,8 @@
 [67]:./Easy/0067-Add%20Binary/README.md#67-add-binary
 [69]:./Easy/0069-Sqrt(x)/README.md#69-sqrtx
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
+[88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
+[122]:./Easy/0112-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#112-best-time-to-buy-and-sell-stock-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
@@ -86,14 +90,18 @@
 [69sc]:./Easy/0069-Sqrt(x)/README.md#solutions-c
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
+[88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
+[122sc]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-c
+[122sj]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-java
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
+[1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
 
 
@@ -114,7 +122,9 @@
 [67l]:https://leetcode-cn.com/problems/add-binary/
 [69l]:https://leetcode.com/problems/sqrtx/
 [70l]:https://leetcode.com/problems/climbing-stairs/
+[88l]:https://leetcode.com/problems/merge-sorted-array/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+[122l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 [198l]:https://leetcode.com/problems/house-robber/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
