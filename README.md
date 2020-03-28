@@ -22,6 +22,8 @@
 | 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
+| 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
+| 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
 | 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |[![l]][122l]  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
@@ -57,8 +59,10 @@
 [69]:./Easy/0069-Sqrt(x)/README.md#69-sqrtx
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 [88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
-[122]:./Easy/0112-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#112-best-time-to-buy-and-sell-stock-ii
+[118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
+[119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
+[122]:./Easy/0122-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#122-best-time-to-buy-and-sell-stock-ii
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
@@ -91,6 +95,8 @@
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
 [88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
+[118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solution-c
+[119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solution-c
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 [122sc]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-c
@@ -123,6 +129,8 @@
 [69l]:https://leetcode.com/problems/sqrtx/
 [70l]:https://leetcode.com/problems/climbing-stairs/
 [88l]:https://leetcode.com/problems/merge-sorted-array/
+[118l]:https://leetcode.com/problems/pascals-triangle/
+[119l]:https://leetcode.com/problems/pascals-triangle-ii/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [122l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 [198l]:https://leetcode.com/problems/house-robber/
