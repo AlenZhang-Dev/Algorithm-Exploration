@@ -95,8 +95,8 @@
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
 [88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
-[118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solution-c
-[119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solution-c
+[118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solutions-c
+[119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solutions-c
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 [122sc]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-c
