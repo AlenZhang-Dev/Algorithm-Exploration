@@ -27,6 +27,7 @@
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
 | 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |[![l]][122l]  |
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |[![l]][167l]  |
+| 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |[![l]][169l]  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
@@ -65,6 +66,7 @@
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [122]:./Easy/0122-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#122-best-time-to-buy-and-sell-stock-ii
 [167]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#167-two-sum-ii---input-array-is-sorted
+[169]:.Easy/0169-Majority%20Element/README.md#169-majority-element
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
@@ -105,6 +107,7 @@
 [122sj]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-java
 [167sc]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#solutions-c
 [167sj]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#solutions-java
+[169sc]:./Easy/0169-Majority%20Element/README.md#solutions-c
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
@@ -138,6 +141,7 @@
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [122l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 [167l]:https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+[169l]:https://leetcode.com/problems/majority-element/
 [198l]:https://leetcode.com/problems/house-robber/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
