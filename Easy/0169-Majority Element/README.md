@@ -1,4 +1,4 @@
-# 167. Two Sum II - Input array is sorted
+# 169. Majority Element
 
 Given an array of size *n*, find the majority element. The majority element is the element that appears **more than** `⌊ n/2 ⌋` times.
 
@@ -17,6 +17,8 @@ Output: 3
 Input: [2,2,1,1,1,2,2]
 Output: 2
 ```
+
+
 
 ## Solutions (C)
 
