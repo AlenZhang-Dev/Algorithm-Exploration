@@ -30,6 +30,7 @@
 | 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |[![l]][169l]  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |[![l]][189l]  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
+| 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |[![l]][217l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
@@ -71,6 +72,7 @@
 [169]:.Easy/0169-Majority%20Element/README.md#169-majority-element
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
+[217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
@@ -115,6 +117,7 @@
 [189sj]:./Easy/0189-Rotate%20Array/README.md#solutions-java
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
+[217sj]:./Easy/0217-Contains%20Duplicate/README.md#solutions-java
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
@@ -150,6 +153,7 @@
 [169l]:https://leetcode.com/problems/majority-element/
 [189l]:https://leetcode.com/problems/rotate-array/
 [198l]:https://leetcode.com/problems/house-robber/
+[217:]:https://leetcode.com/problems/contains-duplicate/
 [268l]:https://leetcode.com/problems/missing-number/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
