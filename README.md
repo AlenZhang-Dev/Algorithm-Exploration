@@ -34,6 +34,7 @@
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
+| 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |[![l]][448l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
@@ -77,6 +78,7 @@
 [219]:./Easy/0219-Contains%20Duplicate/README.md#219-contains-duplicate-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
+[448]:./Easy/0448-Find%20All%20Numbers%20Disappeared%20In%20An%20Array/README.md#448-find-all-numbers-disappeared-in-an-array
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
@@ -124,6 +126,7 @@
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
+[448sj]:./Easy/0448-Find%20All%20Numbers%20Disappeared%20In%20An%20Array/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
@@ -160,5 +163,6 @@
 [219l]:https://leetcode.com/problems/contains-duplicate-ii/
 [268l]:https://leetcode.com/problems/missing-number/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
+[448sj]:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
