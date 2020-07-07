@@ -38,6 +38,7 @@
 | 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |[![l]][448l]  |
 | 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |[![l]][485l]  |
 | 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |[![l]][509l]  |
+| 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |[![l]][561l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
@@ -84,7 +85,8 @@
 [414]:./Easy/0414-Third%20Maximum%20Number/README.md#414-third-maximum-number
 [448]:./Easy/0448-Find%20All%20Numbers%20Disappeared%20In%20An%20Array/README.md#448-find-all-numbers-disappeared-in-an-array
 [485]:./Easy/0485-Max%20Consecutive%20Ones/README.md#485-max-consecutive-ones
-[509]:/Eary/0509-Fibonacci%20Number/README.md#509-fibonacci-number
+[509]:/Easy/0509-Fibonacci%20Number/README.md#509-fibonacci-number
+[561]:/Easy/0561-Array%20Partition%20I/README.md#561-array-partition-i
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
@@ -137,6 +139,7 @@
 [485sc]:./Easy/0485-Max%20Consecutive%20Ones/README.md#solutions-c
 [485sj]:./Easy/0485-Max%20Consecutive%20Ones/README.md#solutions-java
 [509sj]:/Eary/0509-Fibonacci%20Number/README.md#solutions-java
+[561sj]:/Easy/0561-Array%20Partition%20I/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
@@ -177,5 +180,6 @@
 [448l]:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
 [485l]:https://leetcode.com/problems/max-consecutive-ones/
 [509l]:https://leetcode.com/problems/fibonacci-number/
+[561l]:https://leetcode.com/problems/array-partition-i/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
