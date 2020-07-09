@@ -39,7 +39,8 @@
 | 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |[![l]][485l]  |
 | 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |[![l]][509l]  |
 | 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |[![l]][561l]  |
-| 566 |[Reshape the Matrix][566] |[![j]][566sj]  |[Easy][e] |[![l]][566l]  |
+| 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |[![l]][566l]  |
+| 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |[![l]][581l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
@@ -89,6 +90,7 @@
 [509]:/Easy/0509-Fibonacci%20Number/README.md#509-fibonacci-number
 [561]:/Easy/0561-Array%20Partition%20I/README.md#561-array-partition-i
 [566]:./Easy/0566-Reshape%20the%20Matrix/README.md#566-resharp-the-matrix
+[581]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#581-shortest-unsorted-continuous-subarray
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
@@ -143,6 +145,8 @@
 [509sj]:/Eary/0509-Fibonacci%20Number/README.md#solutions-java
 [561sj]:/Easy/0561-Array%20Partition%20I/README.md#solutions-java
 [566sj]:./Easy/0566-Reshape%20the%20Matrix/README.md#solutions-java
+[566sc]:./Easy/0566-Reshape%20the%20Matrix/README.md#solutions-c
+[581sj]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
@@ -184,6 +188,7 @@
 [485l]:https://leetcode.com/problems/max-consecutive-ones/
 [509l]:https://leetcode.com/problems/fibonacci-number/
 [561l]:https://leetcode.com/problems/array-partition-i/
+[581l]:https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 [566l]:https://leetcode.com/problems/reshape-the-matrix/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
