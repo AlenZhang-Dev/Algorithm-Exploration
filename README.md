@@ -41,6 +41,7 @@
 | 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |[![l]][561l]  |
 | 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |[![l]][566l]  |
 | 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |[![l]][581l]  |
+| 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |[![l]][605l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
@@ -91,6 +92,7 @@
 [561]:/Easy/0561-Array%20Partition%20I/README.md#561-array-partition-i
 [566]:./Easy/0566-Reshape%20the%20Matrix/README.md#566-resharp-the-matrix
 [581]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#581-shortest-unsorted-continuous-subarray
+[605]:./Easy/0605-Can%20Place%20Flowers/README.md#605-can-place-flowers
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
@@ -147,6 +149,7 @@
 [566sj]:./Easy/0566-Reshape%20the%20Matrix/README.md#solutions-java
 [566sc]:./Easy/0566-Reshape%20the%20Matrix/README.md#solutions-c
 [581sj]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#solutions-java
+[605sj]:./Easy/0605-Can%20Place%20Flowers/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
@@ -190,5 +193,6 @@
 [561l]:https://leetcode.com/problems/array-partition-i/
 [581l]:https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 [566l]:https://leetcode.com/problems/reshape-the-matrix/
+[605l]:https://leetcode.com/problems/can-place-flowers/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
