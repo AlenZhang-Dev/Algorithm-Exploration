@@ -44,6 +44,7 @@
 | 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |[![l]][605l]  |
 | 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |[![l]][628l]  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
+| 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |[![l]][747l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
 [p]:./ico/python.ico
@@ -96,6 +97,7 @@
 [605]:./Easy/0605-Can%20Place%20Flowers/README.md#605-can-place-flowers
 [628]:./Easy/0628-Maximum%20Product%20of%20Three%20Numbers/README.md#628-maximum-product-of-three-numbers
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
+[747]:./Easy/0747-Largest%20Number%20At%20Least%20Twice%20of%20Others/README.md#747-largest-number-at-least-twice-of-others
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -155,6 +157,7 @@
 [628sj]:./Easy/0628-Maximum%20Product%20of%20Three%20Numbers/README.md#solutions-java
 [746sc]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-c
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
+[747sj]:./Easy/0747-Largest%20Number%20At%20Least%20Twice%20of%20Others/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
 
@@ -199,4 +202,5 @@
 [605l]:https://leetcode.com/problems/can-place-flowers/
 [628l]:https://leetcode.com/problems/maximum-product-of-three-numbers/
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
+[747l]:https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
