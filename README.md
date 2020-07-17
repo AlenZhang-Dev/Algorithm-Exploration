@@ -46,6 +46,7 @@
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
 | 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |[![l]][747l]  |
 | 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |[![l]][766l]  |
+| 830 |[Positions of Large Groups][830] |[![j]][830sj]  |[Easy][e] |[![l]][830l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
 [p]:./ico/python.ico
@@ -100,6 +101,7 @@
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [747]:./Easy/0747-Largest%20Number%20At%20Least%20Twice%20of%20Others/README.md#747-largest-number-at-least-twice-of-others
 [766]:./Easy/0766-Toeplitz%20Matrix/README.md#766-toeplitz-matrix
+[830]:./Easy/0830-Positions%20of%20Large%20Groups/README.md#830-positions-of-large-groups
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -161,6 +163,7 @@
 [746sj]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#solutions-java
 [747sj]:./Easy/0747-Largest%20Number%20At%20Least%20Twice%20of%20Others/README.md#solutions-java
 [766sj]:./Easy/0766-Toeplitz%20Matrix/README.md#solutions-java
+[830sj]:./Easy/0830-Positions%20of%20Large%20Groups/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
 
@@ -207,4 +210,5 @@
 [746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
 [766l]:https://leetcode.com/problems/toeplitz-matrix/
 [747l]:https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+[830l]:https://leetcode.com/problems/positions-of-large-groups/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
