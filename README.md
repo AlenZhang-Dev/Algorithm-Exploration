@@ -48,6 +48,8 @@
 | 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |[![l]][766l]  |
 | 830 |[Positions of Large Groups][830] |[![j]][830sj]  |[Easy][e] |[![l]][830l]  |
 | 832 |[Flipping an Image][832] |[![j]][832sj]  |[Easy][e] |[![l]][832l]  |
+| 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |[![l]][867l]  |
+| 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |[![l]][905l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
 
 [p]:./ico/python.ico
@@ -104,6 +106,8 @@
 [766]:./Easy/0766-Toeplitz%20Matrix/README.md#766-toeplitz-matrix
 [830]:./Easy/0830-Positions%20of%20Large%20Groups/README.md#830-positions-of-large-groups
 [832]:./Easy/0832-Flipping%20an%20Image/README.md#832-Flipping-an-Image
+[867]:./Easy/0867-Transpose%20Matrix/README.md#867-transpose-matrix
+[905]:./Easy/0905-Sort%20Array%20By%20Parity/README.md#905-sort-array-by-parity
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -167,6 +171,9 @@
 [766sj]:./Easy/0766-Toeplitz%20Matrix/README.md#solutions-java
 [830sj]:./Easy/0830-Positions%20of%20Large%20Groups/README.md#solutions-java
 [832sj]:./Easy/0832-Flipping%20an%20Image/README.md#solutions-java
+[867sc]:./Easy/0867-Transpose%20Matrix/README.md#solutions-c
+[867sj]:./Easy/0867-Transpose%20Matrix/README.md#solutions-java
+[905sj]:./Easy/0905-Sort%20Array%20By%20Parity/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
 
@@ -215,4 +222,6 @@
 [747l]:https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 [830l]:https://leetcode.com/problems/positions-of-large-groups/
 [832l]:https://leetcode.com/problems/flipping-an-image/
+[867l]:https://leetcode.com/problems/transpose-matrix/
+[905l]:https://leetcode.com/problems/sort-array-by-parity/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
