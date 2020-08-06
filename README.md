@@ -1,6 +1,4 @@
-#    Leetcode Solutions
-
-
+#    Leetcode 
 
 | #    | Title                | Solutions                                        | Difficulty        |  Source  |
 | ----| ------------      | ----------------------------------          | ----------        | ----------   |
@@ -50,7 +48,35 @@
 | 832 |[Flipping an Image][832] |[![j]][832sj]  |[Easy][e] |[![l]][832l]  |
 | 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |[![l]][867l]  |
 | 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |[![l]][905l]  |
+| 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |[![l]][922l]  |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
+
+
+
+
+
+---
+# 剑指Offer 
+| #    | Titile                 |              |
+| ---- | ---------------------- | ------------ |
+| 3    | [数组中重复的数字][3o] | 数组、二分法 |
+| 4    | [二维数组中的查找][4o] | 二维数组     |
+| 5    | [替换空格][5o]         | 字符串       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -108,6 +134,7 @@
 [832]:./Easy/0832-Flipping%20an%20Image/README.md#832-Flipping-an-Image
 [867]:./Easy/0867-Transpose%20Matrix/README.md#867-transpose-matrix
 [905]:./Easy/0905-Sort%20Array%20By%20Parity/README.md#905-sort-array-by-parity
+[922]:./Easy/0922-Sort%20Array%20By%20Parity%20II/README.md#922-sort-array-by-parity-II
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
@@ -174,6 +201,7 @@
 [867sc]:./Easy/0867-Transpose%20Matrix/README.md#solutions-c
 [867sj]:./Easy/0867-Transpose%20Matrix/README.md#solutions-java
 [905sj]:./Easy/0905-Sort%20Array%20By%20Parity/README.md#solutions-java
+[922sj]:./Easy/0922-Sort%20Array%20By%20Parity%20II/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
 
@@ -224,4 +252,18 @@
 [832l]:https://leetcode.com/problems/flipping-an-image/
 [867l]:https://leetcode.com/problems/transpose-matrix/
 [905l]:https://leetcode.com/problems/sort-array-by-parity/
+[922l]:https://leetcode.com/problems/sort-array-by-parity-ii/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
+
+
+
+
+
+[3o]:./Offer/03-数组中重复的数字/README.md
+[4o]:./Offer/04-二维数组中的查找/README.md
+[5o]:./Offer/05-替换空格/README.md
+
+
+
+
+
