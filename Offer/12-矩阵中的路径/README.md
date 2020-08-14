@@ -31,13 +31,13 @@
 
 
 
-思路：
+## 解析
 
 回溯法的经典题目，使用递归实现搜寻。
 
 
 
-
+## 题解
 
 ## C
 
@@ -104,8 +104,6 @@ bool exist(char** board, int boardSize, int* boardColSize, char* word){
     }
 }
 ```
-
-
 
 
 

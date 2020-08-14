@@ -1,23 +1,27 @@
 # 05. 替换空格
 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
 
- 
-
 示例 1：
 
+```
 输入：s = "We are happy."
 输出："We%20are%20happy."
+```
 
 
 限制：
 
-0 <= s 的长度 <= 10000
+`0 <= s 的长度 <= 10000`
 
 
+
+## 题解
 
 ### 1. 字符数组
 
 使用额外空间。
+
+#### Java
 
 ```java
 class Solution {
@@ -41,7 +45,7 @@ class Solution {
 
 使用`O(n)`的解法，不利用额外空间，总体思路如书本介绍。
 
-Java
+#### Java
 
 ```java
 class Solution {
@@ -68,7 +72,7 @@ class Solution {
 }
 ```
 
-C++
+#### C++
 
 ```c++
 class Solution {
