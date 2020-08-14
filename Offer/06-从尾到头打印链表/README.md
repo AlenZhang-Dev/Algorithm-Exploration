@@ -3,19 +3,23 @@
 
 示例 1：
 
+```
 输入：head = [1,3,2]
 输出：[2,3,1]
+```
 
 
 限制：
 
-0 <= 链表长度 <= 10000
+`0 <= 链表长度 <= 10000`
 
-
+## 题解
 
 ### 1. 递归
 
 容易理解，但效率低。
+
+#### C
 
 ```c
 /**
@@ -45,7 +49,7 @@ int* reversePrint(struct ListNode* head, int* returnSize){
 
 模仿栈的形式，创建对应长度数组，从尾到头进行赋值。
 
-C
+#### C
 
 ```c
 /**
@@ -89,7 +93,7 @@ int* reversePrint(struct ListNode* head, int* returnSize){
 }
 ```
 
-Java
+#### Java
 
 ```java
 /**
@@ -122,6 +126,8 @@ class Solution {
 ### 3.栈
 
 先进后出
+
+#### Java
 
 ```java
 /**
