@@ -81,6 +81,12 @@
 | 24 | [反转链表][24o] | 	 |
 | 25 | [合并两个排序的链表][25o] | 	 |
 | 26 | [树的子结构][26o] | 	 |
+| 27 | [二叉树的镜像][27o] | 	 |
+| 28 | [对称二叉树][28o] | 	 |
+
+
+
+
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -283,5 +289,6 @@
 [23o]:./Offer/23-链表中环的入口节点/README.md
 [24o]:./Offer/24-反转链表/README.md
 [25o]:./Offer/25-合并两个排序的链表/README.md
-[26o]:./Offer/24-树的子结构/README.md
-
+[26o]:./Offer/26-树的子结构/README.md
+[27o]:./Offer/27-二叉树的镜像/README.md
+[28o]:./Offer/28-对称二叉树/README.md
