@@ -20,7 +20,7 @@
 | 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
-| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
+| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[C++][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
@@ -90,12 +90,13 @@
 | 33 | [二叉搜索树的后续遍历序列][33o] | 	 |
 | 34 | [二叉树中和为某一值的路径][34o] | 	 |
 | 36 | [二叉搜索树与双向链表][36o] | 中序遍历	 |
+| 39 | [数组中出现次数超过一半的数字][39o] | 	 |
+
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
 [c]:./ico/c.png
-[c++]:./ico/c++.png
 [j]:./ico/java.png
 
 [e]:./Easy
@@ -306,4 +307,5 @@
 [33o]:./Offer/33-二叉搜索树的后续遍历序列/README.md
 [34o]:./Offer/34-二叉树中和为某一值的路径/README.md
 [36o]:./Offer/36-二叉搜索树与双向链表/README.md
+[39o]:./Offer/39-数组中出现次数超过一半的数字/README.md
 
