@@ -20,6 +20,7 @@
 | 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
+| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
@@ -94,6 +95,7 @@
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
 [c]:./ico/c.png
+[c++]:./ico/c++.png
 [j]:./ico/java.png
 
 [e]:./Easy
@@ -118,6 +120,7 @@
 [69]:./Easy/0069-Sqrt(x)/README.md#69-sqrtx
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 [88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
+[105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
@@ -176,6 +179,8 @@
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
 [88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
+[105scp]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-c++
+[105sj]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-java
 [118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solutions-c
 [119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solutions-c
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
@@ -236,6 +241,7 @@
 [69l]:https://leetcode.com/problems/sqrtx/
 [70l]:https://leetcode.com/problems/climbing-stairs/
 [88l]:https://leetcode.com/problems/merge-sorted-array/
+[105l]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 [118l]:https://leetcode.com/problems/pascals-triangle/
 [119l]:https://leetcode.com/problems/pascals-triangle-ii/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
