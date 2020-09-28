@@ -27,41 +27,80 @@
 
 ## 解析
 
-每次打印一个节点的时候，如果该节点有子节点，则该把该节点的子节点放到一个队列的末尾。接下来到队列的头部取出最早进入队列的节点，重复前面的打印操作，知道队列何中所有节点都被打印出来。
+使用数据结构：队列。
+
+规律：每次打印一个节点的时候，如果该节点有子节点，则该把该节点的子节点放到一个队列的末尾。接下来到队列的头部取出最早进入队列的节点，重复前面的打印操作，知道队列何中所有节点都被打印出来。
 
 
 
 ## 题解
 
+### Java
+
 ```java
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 class Solution {
     public int[] levelOrder(TreeNode root) {
-        if(root == null)
-            return new int[0];
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        List<Integer> list = new ArrayList<Integer>();
-        queue.add(root);
-        while(!queue.isEmpty()){
+        if(root == null) return new int[0];
+        Queue<TreeNode> queue = new LinkedList<>(){{ add(root); }};
+        ArrayList<Integer> ans = new ArrayList<>();
+        while(!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            list.add(node.val);
-            if(node.left != null)
-                queue.add(node.left);
-            if(node.right != null)
-                queue.add(node.right);
+            ans.add(node.val);
+            if(node.left != null) 
+              	queue.add(node.left);
+            if(node.right != null) 
+              	queue.add(node.right);
         }
-        return list.stream().mapToInt(Integer::intValue).toArray();
+        int[] res = new int[ans.size()];
+        for(int i = 0; i < ans.size(); i++)
+            res[i] = ans.get(i);
+        return res;
     }
 }
+
 ```
 
 
+
+### C++
+
+```c++
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+
+class Solution {
+public:
+    vector<int> levelOrder(TreeNode* root) {
+
+        queue<TreeNode *> dequeTreeNode;
+        vector<int> res;
+        if(!root)
+            return res;
+        
+        dequeTreeNode.push(root);
+
+        while(dequeTreeNode.size()){
+            TreeNode* pNode = dequeTreeNode.front();//take out the first element
+            dequeTreeNode.pop();//eject the first element
+            res.push_back(pNode -> val);//save inorder to return
+            
+            if(pNode -> left){
+                dequeTreeNode.push(pNode -> left);
+            }
+
+            if(pNode -> right){
+                dequeTreeNode.push(pNode -> right);
+            }
+        }
+        return res;
+    }
+};
+```
 
