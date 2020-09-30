@@ -26,7 +26,7 @@ But the following `[1,2,2,null,3,null,3]` is not:
 
 
 
-## Solutions(Java)
+## Solutions (Java)
 
 **Recursively：**
 
