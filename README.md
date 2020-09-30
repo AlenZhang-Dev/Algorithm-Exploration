@@ -21,6 +21,7 @@
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |[![l]][79l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
+| 101 |[Symmetric Tree][101] |[c++][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
 | 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[C++][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
@@ -84,7 +85,7 @@
 | 24 | [反转链表][24o] | 	 |
 | 25 | [合并两个排序的链表][25o] | 	 |
 | 26 | [树的子结构][26o] |  |
-| 27 | [二叉树的镜像][27o] | 	 |
+| 27 | [二叉树的镜像][27o] |  	 |
 | 28 | [对称二叉树][28o] | 	 |
 | 29 | [顺时针打印矩阵][29o] | 	 |
 | 30 | [包含min函数的栈][30o] | 	 |
@@ -126,6 +127,7 @@
 [70]:./Easy/0070-Climbing%20Stairs/README.md#70-climbing-stairs
 [79]:./Medium/0079-Word%20Search/README.md#79-word-search
 [88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
+[101]:./Easy/0101-Symmetric%20Tree/README.md#101-symmetric-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
@@ -188,6 +190,8 @@
 [79sc]:./Medium/0079-Word%20Search/README.md#solution-c
 [79sj]:./Medium/0079-Word%20Search/README.md#solution-java
 [88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
+[101sj]:./Easy/0101-Symmetric%20Tree/README.md#solutions-java
+[101scp]:./Easy/0101-Symmetric%20Tree/README.md#solutions-c++
 [105scp]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-c++
 [105sj]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-java
 [118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solutions-c
@@ -253,6 +257,7 @@
 [70l]:https://leetcode.com/problems/climbing-stairs/
 [79l]:https://leetcode.com/problems/word-search/
 [88l]:https://leetcode.com/problems/merge-sorted-array/
+[101l]:https://leetcode.com/problems/symmetric-tree/
 [105l]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 [118l]:https://leetcode.com/problems/pascals-triangle/
 [119l]:https://leetcode.com/problems/pascals-triangle-ii/
