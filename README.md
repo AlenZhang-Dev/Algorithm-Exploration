@@ -32,6 +32,7 @@
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |[![l]][217l]  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
+| 226 |[Invert Binary Tree][226] |[C++][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |[![l]][414l]  |
@@ -136,6 +137,7 @@
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
 [219]:./Easy/0219-Contains%20Duplicate/README.md#219-contains-duplicate-ii
+[226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
 [414]:./Easy/0414-Third%20Maximum%20Number/README.md#414-third-maximum-number
@@ -202,6 +204,8 @@
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
 [217sj]:./Easy/0217-Contains%20Duplicate/README.md#solutions-java
 [219sj]:./Easy/0219-Contains%20Duplicate/README.md#solutions-java
+[226sj]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-java
+[226scp]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-c++
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
@@ -260,6 +264,7 @@
 [198l]:https://leetcode.com/problems/house-robber/
 [217l]:https://leetcode.com/problems/contains-duplicate/
 [219l]:https://leetcode.com/problems/contains-duplicate-ii/
+[226l]:https://leetcode.com/problems/invert-binary-tree/
 [268l]:https://leetcode.com/problems/missing-number/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [414l]:https://leetcode.com/problems/third-maximum-number/
