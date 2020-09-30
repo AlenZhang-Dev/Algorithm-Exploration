@@ -1,20 +1,24 @@
-# 34. 二叉树中和为某一值的路径 
+# 113. Path Sum II
 
-输入一棵二叉树和一个整数，打印出二叉树中节点值的和为输入整数的所有路径。从树的根节点开始往下一直到叶节点所经过的节点形成一条路径。
+Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
+**Note:** A leaf is a node with no children.
 
+**Example:**
 
-示例:
-给定如下二叉树，以及目标和 sum = 22，
+Given the below binary tree and `sum = 22`,
 
-          5
-         / \
-        4   8
-       /   / \
-      11  13  4
-     /  \    / \
-    7    2  5   1
-返回：
+```
+      5
+     / \
+    4   8
+   /   / \
+  11  13  4
+ /  \    / \
+7    2  5   1
+```
+
+Return:
 
 ```
 [
@@ -23,34 +27,11 @@
 ]
 ```
 
-提示：
-
-`数组长度 <= 10000`
-
-
-链接：https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-
-## 解析
-
-数据结构：栈。
-
-本质上即为树的遍历，并在遍历过程中记录当前遍历的路径值。
-
-递归函数主要执行以下三个步骤：
-
-1. 接受当前节点数据，数据入栈，记录当前路径数据和。
-2. 是否同时满足：
-   1. 当前节点为叶子结点
-   2. 当前路径和与题目路径值相等
-3. 继续进行子节点的递归遍历。
-4. 执行以上步骤后，弹出栈顶元素。
 
 
 
-## 题解
 
-### Java
+## Solutions (Java)
 
 ```java
 /**
@@ -92,7 +73,7 @@ class Solution {
 
 
 
-### C++
+## Solutions (C++)
 
 ```c++
 /**
@@ -139,6 +120,3 @@ public:
     }
 };
 ```
-
-
-

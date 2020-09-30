@@ -135,7 +135,7 @@ class Solution {
 
 
 
-## Solutions(C++)
+## Solutions (C++)
 
 ```c++
 /**

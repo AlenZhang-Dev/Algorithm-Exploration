@@ -21,8 +21,9 @@
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |[![l]][79l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
-| 101 |[Symmetric Tree][101] |[c++][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
+| 101 |[Symmetric Tree][101] |[C++][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
 | 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[C++][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
+| 113 |[Path Sum II][113] |[C++][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |[![l]][113l]  |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
@@ -129,6 +130,7 @@
 [88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
 [101]:./Easy/0101-Symmetric%20Tree/README.md#101-symmetric-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
+[113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
@@ -187,13 +189,15 @@
 [69sc]:./Easy/0069-Sqrt(x)/README.md#solutions-c
 [70sc]:./Easy/0070-Climbing%20Stairs/README.md#solutions-c
 [70sj]:./Easy/0070-Climbing%20Stairs/README.md#solutions-java
-[79sc]:./Medium/0079-Word%20Search/README.md#solution-c
-[79sj]:./Medium/0079-Word%20Search/README.md#solution-java
+[79sc]:./Medium/0079-Word%20Search/README.md#solutions-c
+[79sj]:./Medium/0079-Word%20Search/README.md#solutions-java
 [88sc]:./Easy/0088-Merge%20Sorted%20Array/README.md#solutions-c
 [101sj]:./Easy/0101-Symmetric%20Tree/README.md#solutions-java
 [101scp]:./Easy/0101-Symmetric%20Tree/README.md#solutions-c++
 [105scp]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-c++
 [105sj]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-java
+[113scp]:./Medium/0113-Path%20Sum%20II/README.md#solutions-c++
+[113sj]:./Medium/0113-Path%20Sum%20II/README.md#solutions-java
 [118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solutions-c
 [119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solutions-c
 [121sc]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-c
@@ -259,6 +263,7 @@
 [88l]:https://leetcode.com/problems/merge-sorted-array/
 [101l]:https://leetcode.com/problems/symmetric-tree/
 [105l]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+[113l]:https://leetcode.com/problems/path-sum-ii/
 [118l]:https://leetcode.com/problems/pascals-triangle/
 [119l]:https://leetcode.com/problems/pascals-triangle-ii/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
