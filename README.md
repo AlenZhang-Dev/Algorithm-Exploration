@@ -21,9 +21,9 @@
 | 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
 | 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |[![l]][79l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
-| 101 |[Symmetric Tree][101] |[C++][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
-| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[C++][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
-| 113 |[Path Sum II][113] |[C++][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |[![l]][113l]  |
+| 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
+| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
+| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |[![l]][113l]  |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
@@ -34,12 +34,12 @@
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |[![l]][217l]  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
-| 226 |[Invert Binary Tree][226] |[C++][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
+| 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
 | 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |[![l]][297l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |[![l]][414l]  |
-| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[C++][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |[![l]][426l]  |
+| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |[![l]][426l]  |
 | 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |[![l]][448l]  |
 | 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |[![l]][485l]  |
 | 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |[![l]][509l]  |
@@ -106,6 +106,7 @@
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
 [c]:./ico/c.png
+[c++]:./ico/c++.png
 [j]:./ico/java.png
 
 [e]:./Easy
