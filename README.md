@@ -101,8 +101,8 @@
 | 37 | :star:  [序列化二叉树][37o]       [:us:][297] | BFS、DFS |
 | 38 | [字符串的排列][38o] | 	 |
 | 39 | [数组中出现次数超过一半的数字][39o] | 	 |
-
-
+| 40 | [最小的k个数][40o] | 	 |
+| 42 | [连续子数组最大和][42o] | 	 |
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
@@ -346,4 +346,5 @@
 [37o]:./Offer/37-序列化二叉树/README.md
 [38o]:./Offer/38-字符串的排列/README.md
 [39o]:./Offer/39-数组中出现次数超过一半的数字/README.md
-
+[40o]:./Offer/40-最小的k个数/README.md
+[42o]:./Offer/42-连续子数组最大和/README.md
