@@ -36,6 +36,7 @@
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
+| 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |[![l]][295l]  |
 | 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |[![l]][297l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
 | 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |[![l]][414l]  |
@@ -104,6 +105,8 @@
 | 40 | [最小的k个数][40o] | 	 |
 | 41 | [数据流中的中位数][41o] | 	 |
 | 42 | [连续子数组最大和][42o] | 	 |
+
+
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
 [l]:./ico/leetcode.png
@@ -149,6 +152,7 @@
 [219]:./Easy/0219-Contains%20Duplicate/README.md#219-contains-duplicate-ii
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
+[295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
 [297]:./Hard/0297-Serialize%20and%20Deserialize%20Binary%20Tree/README.md#serialize-and-deserialize-binary-tree
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
 [414]:./Easy/0414-Third%20Maximum%20Number/README.md#414-third-maximum-number
@@ -223,6 +227,8 @@
 [226sj]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-java
 [226scp]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-c++
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
+[295scp]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-c
+[295sj]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-java
 [297sj]:./Hard/0297-Serialize%20and%20Deserialize%20Binary%20Tree/README.md#solutions-java
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
@@ -287,6 +293,7 @@
 [219l]:https://leetcode.com/problems/contains-duplicate-ii/
 [226l]:https://leetcode.com/problems/invert-binary-tree/
 [268l]:https://leetcode.com/problems/missing-number/
+[295l]:https://leetcode.com/problems/find-median-from-data-stream/
 [297l]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
 [414l]:https://leetcode.com/problems/third-maximum-number/
