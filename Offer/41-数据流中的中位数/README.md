@@ -124,44 +124,46 @@ public double findMedian() {
 ```c++
 class MedianFinder {
 public:
+   
     /** initialize your data structure here. */
     MedianFinder() {
-
+        //Nothing Here
     }
     
     void addNum(int num) {
-        // 讲新加入的数字放到size 小的栈里面, 如果都为空， 放到SmallHalf stack中
-        if (BigHalf.size() >= SmallHalf.size()) {
-            SmallHalf.push(num);
-        } else
-            BigHalf.push(num);
-        // 第一个元素被放在了SmallHalf里面
-        if (BigHalf.empty())
-            return;
+            //小根堆元素大于大根堆，将元素放入小根堆
+            // if(HeapA.size() >= HeapB.size()){
+            //     HeapB.push(num);
+            // }else{
+            //     HeapA.push(num);
+            // }
+            HeapA.size() > HeapB.size() ? HeapB.push(num) : HeapA.push(num);
 
-        // 如果BigHalf的最小值小于了SmallHalf的最大值，则需要调整，这里交换堆顶元素即可
-        if (BigHalf.top() < SmallHalf.top()) {
-            BigHalf.push(SmallHalf.top());
-            SmallHalf.push(BigHalf.top());
-            BigHalf.pop();
-            SmallHalf.pop();
+            //交换元素，并删除对应元素
+            if(!HeapB.empty() && HeapA.top() < HeapB.top()){
+                HeapA.push(HeapB.top());
+                HeapB.push(HeapA.top());
+                HeapA.pop();
+                HeapB.pop();
+            }
         }
-    }
     
     double findMedian() {
-        int n1 = BigHalf.size();
-        int n2 = SmallHalf.size();
-        if ((n1 + n2) % 2 == 0) {
-            return (BigHalf.top() + SmallHalf.top()) * 1.0 / 2;
-        }
-        
-        return n1 > n2? BigHalf.top() : SmallHalf.top();
+        // int n1 = HeapA.size();
+        // int n2 = HeapB.size();
+        // if((n1 + n2) % 2 == 0){
+        //     return (HeapA.top() + HeapB.top()) * 1.0 / 2;
+        // }
+				//通关判断数组是否相等来判断数量奇偶
+        return HeapA.size() == HeapB.size() ? (HeapA.top() + HeapB.top()) * 1.0 / 2 : HeapA.top();
+        // if(HeapA.size() == HeapB.size())
+        //     return (HeapA.top() + HeapB.top()) * 1.0 / 2;
+        // // return n1 > n2 ? HeapA.top() : HeapB.top();
+        // return HeapA.top();
     }
 private:
-    // 小顶堆来保存值较大的一半数据
-    priority_queue<int, vector<int>, greater<int>> BigHalf; 
-    // 大顶堆来保存值较小的一半数据
-    priority_queue<int, vector<int>, less<int>> SmallHalf;
+    priority_queue<int, vector<int>, greater<int>> HeapA;//创建小顶堆
+    priority_queue<int, vector<int>, less<int>> HeapB;//创建大顶堆
 };
 
 /**
@@ -171,8 +173,6 @@ private:
  * double param_2 = obj->findMedian();
  */
 ```
-
-
 
 
 
