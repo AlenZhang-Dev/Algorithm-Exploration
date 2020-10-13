@@ -74,7 +74,7 @@ public double findMedian() {
 
 ```
 
-## Solutions(C++)
+## Solutions (C++)
 
 ~~~c++
 class MedianFinder {
