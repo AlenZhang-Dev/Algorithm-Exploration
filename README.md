@@ -1,4 +1,4 @@
-#    Leetcode 
+Leetcode 
 
 | #    | Title                | Solutions                                        | Difficulty        |  Source  |
 | ----| ------------      | ----------------------------------          | ----------        | ----------   |
@@ -39,6 +39,7 @@
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |[![l]][295l]  |
 | 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |[![l]][297l]  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
+| 400 |[Nth Digit][400] |[![j]][400sj]  |[Medium][m] |[![l]][400l]  |
 | 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |[![l]][414l]  |
 | 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |[![l]][426l]  |
 | 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |[![l]][448l]  |
@@ -105,6 +106,9 @@
 | 40 | [最小的k个数][40o] | 	 |
 | 41 | [数据流中的中位数][41o] | 	 |
 | 42 | [连续子数组最大和][42o] | 	 |
+| 44 | [数字序列中某一位的数字][44o]   [:us:][400] |  |
+
+
 
 
 [p]:./ico/python.ico
@@ -155,6 +159,7 @@
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
 [297]:./Hard/0297-Serialize%20and%20Deserialize%20Binary%20Tree/README.md#serialize-and-deserialize-binary-tree
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
+[400]:./Medium/0400-Nth%20Digit/README.md#400-nth-digit
 [414]:./Easy/0414-Third%20Maximum%20Number/README.md#414-third-maximum-number
 [426]:./Medium/0426-Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List/README.md#426-convert-binary-search-tree-to-sorted-doubly-linked-list
 [448]:./Easy/0448-Find%20All%20Numbers%20Disappeared%20In%20An%20Array/README.md#448-find-all-numbers-disappeared-in-an-array
@@ -227,11 +232,12 @@
 [226sj]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-java
 [226scp]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-c++
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
-[295scp]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-c
+[295scp]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-c++
 [295sj]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-java
 [297sj]:./Hard/0297-Serialize%20and%20Deserialize%20Binary%20Tree/README.md#solutions-java
 [303sc]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-c
 [303sj]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#solutions-java
+[400sj]:./Medium/0400-Nth%20Digit/README.md#solutions-java
 [414sj]:./Easy/0414-Third%20Maximum%20Number/README.md#solutions-java
 [426scp]:./Medium/0426-Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List/README.md#solutions-c++
 [426sj]:./Medium/0426-Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List/README.md#solutions-java
@@ -296,6 +302,7 @@
 [295l]:https://leetcode.com/problems/find-median-from-data-stream/
 [297l]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
+[400l]:https://leetcode.com/problems/nth-digit/
 [414l]:https://leetcode.com/problems/third-maximum-number/
 [426l]:https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
 [448l]:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
@@ -315,7 +322,6 @@
 [905l]:https://leetcode.com/problems/sort-array-by-parity/
 [922l]:https://leetcode.com/problems/sort-array-by-parity-ii/
 [1025l]:https://leetcode-cn.com/problems/divisor-game/
-
 
 
 
@@ -357,3 +363,4 @@
 [40o]:./Offer/40-最小的k个数/README.md
 [41o]:./Offer/41-数据流中的中位数/READMD.md
 [42o]:./Offer/42-连续子数组最大和/README.md
+[44o]:./Offer/44-数字序列中某一位的数字/README.md
