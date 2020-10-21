@@ -109,8 +109,8 @@
 | 44 | [数字序列中某一位的数字][44o]   [:us:][400] |  |
 | 45 | [把数组换成最小的数][45o]    |  |
 | 46 | [把数字翻译成字符串][46o]    | 递归 |
-
-
+| 47 | [礼物的最大价值][47o]    |  |
+| 48 | [最长不含重复字符的子字符串][48o]    |  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -362,8 +362,11 @@
 [38o]:./Offer/38-字符串的排列/README.md
 [39o]:./Offer/39-数组中出现次数超过一半的数字/README.md
 [40o]:./Offer/40-最小的k个数/README.md
-[41o]:./Offer/41-数据流中的中位数/READMD.md
+[41o]:./Offer/41-数据流中的中位数/README.md
 [42o]:./Offer/42-连续子数组最大和/README.md
 [44o]:./Offer/44-数字序列中某一位的数字/README.md
 [45o]:./Offer/45-把数组排成最小的数/README.md
 [46o]:./Offer/46-把数字翻译成字符串/README.md
+[47o]:./Offer/47-礼物的最大价值/README.md
+[48o]:./Offer/48-最长不含重复字符的子字符串/README.md
+
