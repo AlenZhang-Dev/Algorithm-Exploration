@@ -35,7 +35,7 @@
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |[![l]][217l]  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
-| 264 |[Ugly Number II][264] |[![java]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |[![l]][264l]  |
+| 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |[![l]][264l]  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |[![l]][295l]  |
 | 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |[![l]][297l]  |
@@ -112,7 +112,8 @@
 | 46 | [把数字翻译成字符串][46o]    | 递归 |
 | 47 | [礼物的最大价值][47o]    |  |
 | 48 | [最长不含重复字符的子字符串][48o]    |  |
-| 49 | [丑数][49o]    | [:us:][264] |
+| 49 | [丑数][49o]   [:us:][264] |  |
+| 50 | [第一个只出现一次的字符][50o]    |  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -156,7 +157,7 @@
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
-[219]:./Easy/0219-Contains%20Duplicate/README.md#219-contains-duplicate-ii
+[219]:./Easy/0219-Contains%20Duplicate%20II/README.md#219-contains-duplicate-ii
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
@@ -232,11 +233,11 @@
 [198sj]:./Easy/0198-House%20Robber/README.md#solutions-java
 [198sc]:./Easy/0198-House%20Robber/README.md#solutions-c
 [217sj]:./Easy/0217-Contains%20Duplicate/README.md#solutions-java
-[219sj]:./Easy/0219-Contains%20Duplicate/README.md#solutions-java
+[219sj]:./Easy/0219-Contains%20Duplicate%II/README.md#solutions-java
 [226sj]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-java
 [226scp]:./Easy/0226-Invert%20Binary%20Tree/README.md#solutions-c++
-[264sj]:./Medium/0264-Ugly%20Number%20II/README.md#soulutions-java
-[264sp]:./Medium/0264-Ugly%20Number%20II/README.md#soulutions-python
+[264sj]:./Medium/0264-Ugly%20Number%20II/README.md#solultions-java
+[264sp]:./Medium/0264-Ugly%20Number%20II/README.md#solutions-python
 [268sj]:./Easy/0268-Missing%20Number/README.md#solutions-java
 [295scp]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-c++
 [295sj]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#solutions-java
@@ -376,4 +377,5 @@
 [47o]:./Offer/47-礼物的最大价值/README.md
 [48o]:./Offer/48-最长不含重复字符的子字符串/README.md
 [49o]:./Offer/49-丑数/README.md
+[50o]:./Offer/50-第一个只出现一次的字符/README.md
 
