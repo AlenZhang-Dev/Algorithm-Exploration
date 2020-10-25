@@ -28,6 +28,7 @@
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
 | 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |[![l]][122l]  |
+| 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |[![l]][160l]  |
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |[![l]][167l]  |
 | 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |[![l]][169l]  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |[![l]][189l]  |
@@ -115,6 +116,7 @@
 | 49 | [丑数][49o]   [:us:][264] |  |
 | 50 | [第一个只出现一次的字符][50o]    |  |
 | 51 | [数组中逆序对][51o]    | Hard |
+| 52 | [两个链表的第一个公共节点][52o]    |  |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -153,6 +155,7 @@
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [122]:./Easy/0122-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#122-best-time-to-buy-and-sell-stock-ii
+[160]:./Easy/0160-Intersection%20of%20Two%20Linked%20Lists#160-intersection-of-two-linked-lists
 [167]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#167-two-sum-ii---input-array-is-sorted
 [169]:.Easy/0169-Majority%20Element/README.md#169-majority-element
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
@@ -227,6 +230,7 @@
 [121sj]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#solutions-java
 [122sc]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-c
 [122sj]:./Easy/0122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md#solutions-java
+[160sj]:./Easy/0160-Intersection%20of%20Two%20Linked%20Lists/README.md#solutions-java
 [167sc]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#solutions-c
 [167sj]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#solutions-java
 [169sc]:./Easy/0169-Majority%20Element/README.md#solutions-c
@@ -299,6 +303,7 @@
 [119l]:https://leetcode.com/problems/pascals-triangle-ii/
 [121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [122l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[160l]:https://leetcode.com/problems/intersection-of-two-linked-lists/
 [167l]:https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [169l]:https://leetcode.com/problems/majority-element/
 [189l]:https://leetcode.com/problems/rotate-array/
@@ -380,4 +385,4 @@
 [49o]:./Offer/49-丑数/README.md
 [50o]:./Offer/50-第一个只出现一次的字符/README.md
 [51o]:./Offer/51-数组中逆序对/READMD.md
-
+[52o]:./Offer/52-两个链表的第一个公共节点/README.md
