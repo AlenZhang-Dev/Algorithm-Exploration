@@ -11,6 +11,7 @@
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |[![l]][26l]  |
 | 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |[![l]][27l]  |
 | 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
+| 34 |[Find First and Last Position of Element in Sorted Array][34] |[![j]][34sj]  |[Medium][m] |[![l]][34l]  |
 | 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
 | 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
 | 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |[![l]][53l]  |
@@ -117,6 +118,8 @@
 | 50 | [第一个只出现一次的字符][50o]    |  |
 | 51 | [数组中逆序对][51o]    | Hard |
 | 52 | [两个链表的第一个公共节点][52o]    |  |
+| 53 | [在排序数组中查找数字][53o]    |  |
+
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -138,6 +141,7 @@
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
 [28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr
+[34]:./Medium/0034-Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md#34-find-first-and-last-position-of-element-in-sorted-array
 [35]:./Easy/0035-Search%20Insert%20Position/README.md#35-search-insert-position
 [38]:./Easy/0038-Count%20and%20Say/README.md#38-count-and-say
 [53]:./Easy/0053-Maximum%20Subarray/README.md#53-maximum-subarray
@@ -223,6 +227,7 @@
 [105scp]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-c++
 [105sj]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#solutions-java
 [113scp]:./Medium/0113-Path%20Sum%20II/README.md#solutions-c++
+[34sj]:./Medium/0034-Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md#solutions-java
 [113sj]:./Medium/0113-Path%20Sum%20II/README.md#solutions-java
 [118sc]:./Easy/0118-Pascal's%20Triangle/README.md#solutions-c
 [119sc]:./Easy/0119-Pascal's%20Triangle%20II/README.md#solutions-c
@@ -286,6 +291,7 @@
 [26l]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [27l]:https://leetcode.com/problems/remove-element/
 [28l]:https://leetcode.com/problems/implement-strstr/
+[34l]:https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 [35l]:https://leetcode.com/problems/search-insert-position/
 [38l]:https://leetcode.com/problems/count-and-say/
 [53l]:https://leetcode.com/problems/maximum-subarray/
@@ -386,3 +392,4 @@
 [50o]:./Offer/50-第一个只出现一次的字符/README.md
 [51o]:./Offer/51-数组中逆序对/READMD.md
 [52o]:./Offer/52-两个链表的第一个公共节点/README.md
+[53o]:./Offer/53-在排序数组中查找数字/README.md
