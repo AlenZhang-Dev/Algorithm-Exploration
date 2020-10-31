@@ -127,7 +127,7 @@ Author:  Alen Zhang
 | 55.1 | [平衡二叉树][55.1o]    |  | ![][j] |
 | 56 | [数组中只出现一次的两个数字][56o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 | 56.1 | [数组中唯一只出现一次的数字][56.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-
+| 57 | [和为s的数字][57o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 
 
 [p]:./ico/python.ico
@@ -408,6 +408,6 @@ Author:  Alen Zhang
 [54o]:./Offer/54-二叉搜索树的最大k节点/README.md
 [55o]:./Offer/55-二叉树的深度/README.md
 [55.1o]:./Offer/55-平衡二叉树/README.md
-[56o]:./Offer/56-数组中只出现一次的两个数字/READMD.md
+[56o]:./Offer/56-数组中只出现一次的两个数字/README.md
 [56.1o]:./Offer/56-数组中唯一只出现一次的数字/README.md
-
+[57o]:./Offer/57-和为s的数字/README.md
