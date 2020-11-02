@@ -128,6 +128,9 @@ Author:  Alen Zhang
 | 56 | [数组中只出现一次的两个数字][56o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 | 56.1 | [数组中唯一只出现一次的数字][56.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 | 57 | [和为s的数字][57o]    |  | ![][j]&nbsp;&nbsp;![][k] |
+| 57.1 | [和为s的连续正数序列][57.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
+
+
 
 
 [p]:./ico/python.ico
@@ -411,3 +414,4 @@ Author:  Alen Zhang
 [56o]:./Offer/56-数组中只出现一次的两个数字/README.md
 [56.1o]:./Offer/56-数组中唯一只出现一次的数字/README.md
 [57o]:./Offer/57-和为s的数字/README.md
+[57.1o]:./Offer/57-和为s的连续正数序列/README.md
