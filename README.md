@@ -129,7 +129,10 @@ Author:  Alen Zhang
 | 56.1 | [数组中唯一只出现一次的数字][56.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 | 57 | [和为s的数字][57o]    |  | ![][j]&nbsp;&nbsp;![][k] |
 | 57.1 | [和为s的连续正数序列][57.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-| 58 | [翻转单词顺序][58o]    |  | ![][j]&nbsp;&nbsp;![][k] |
+| 58 | [翻转单词顺序][58o]    |  | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k] |
+| 58.1 | [左旋转字符串][58.1o]    |  | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k] |
+
+
 
 
 
@@ -416,3 +419,4 @@ Author:  Alen Zhang
 [57o]:./Offer/57-和为s的数字/README.md
 [57.1o]:./Offer/57-和为s的连续正数序列/README.md
 [58o]:./Offer/58-翻转单词顺序/README.md
+[58.1o]:./Offer/58-左旋转字符串/README.,md
