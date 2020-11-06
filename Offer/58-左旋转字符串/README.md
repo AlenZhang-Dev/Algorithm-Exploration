@@ -56,7 +56,7 @@ class Solution {
 }
 ```
 
-列表拼接
+**列表拼接**
 
 ```java
 //使用StringBuilder
