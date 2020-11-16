@@ -20,7 +20,34 @@ Output: 1->2->3
 
 ## Solutions (C++)
 
-### 1. Dynamic programming
+### 1. Recursion
+
+~~~c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        if(head == nullptr || head -> next == nullptr)
+            return head;
+        head -> next = deleteDuplicates(head -> next);
+        if(head -> val == head -> next -> val){
+            ListNode *del = head;
+            head = head -> next;
+            delete del;
+        }
+        return head;
+    }
+};
+~~~
+
+### 2. Iteration
 
 ```c
 /**
@@ -76,6 +103,32 @@ class Solution {
     }
 }
 ```
+
+### 2. Iteration
+
+~~~java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode cur = head;
+        while(cur != null && cur.next != null){
+            if(cur.val == cur.next.val){
+                cur.next = cur.next.next;
+            }
+            else
+                cur = cur.next;
+        }
+        return head;
+    }
+}
+~~~
 
 
 
