@@ -2,8 +2,8 @@
 
 Author:  Alen Zhang
 
-| #    | Title                | Solutions                                        | Difficulty        |  Source  |
-| ----| ------------      | ----------------------------------          | ----------        | ----------   |
+| #    | Title                | Solutions                                        | Difficulty        |
+| ----| ------------      | ----------------------------------          | ----------        |
 | 1    | [Two Sum][1] |[![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr] | [Easy][e]         | [![l]][1l]     |
 | 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |[![l]][7l]  |
 | 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |[![l]][9l]  |
@@ -25,6 +25,7 @@ Author:  Alen Zhang
 | 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |[![l]][79l]  |
 | 83 |[Remove Duplicates from Sorted List][83] |[![c++]][83scp]&nbsp;&nbsp;[![j]][83sj] |[Easy][e] |[![l]][83l]  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
+| 100 |[Same Tree][100] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]  |[Easy][e] |  |
 | 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
 | 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
 | 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |[![l]][113l]  |
@@ -171,6 +172,7 @@ Author:  Alen Zhang
 [79]:./Medium/0079-Word%20Search/README.md#79-word-search
 [83]:./Easy/0083-Remove%20Duplicates%20from%20Sorted%20List/README.md#83-remove-duplicates-from-sorted-list
 [88]:./Easy/0088-Merge%20Sorted%20Array/README.md#88-merge-sorted-array
+[100]:./Easy/0100-Same%20Tree/README.md#100-same-tree
 [101]:./Easy/0101-Symmetric%20Tree/README.md#101-symmetric-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
 [113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
