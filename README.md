@@ -2,70 +2,71 @@
 
 Author:  Alen Zhang
 
-| #    | Title                | Solutions                                        | Difficulty        |
-| ----| ------------      | ----------------------------------          | ----------        |
-| 1    | [Two Sum][1] |[![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr] | [Easy][e]         | [![l]][1l]     |
-| 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |[![l]][7l]  |
-| 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |[![l]][9l]  |
-| 11 |[Container With Most Water][11]  |[![c]][11sc]&nbsp;&nbsp;[![r]][11sr]  |[Medium][m] |[![l]][11l]  |
-| 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |[![l]][20l]  |
-| 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |[![l]][21l]  |
-| 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |[![l]][26l]  |
-| 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |[![l]][27l]  |
-| 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |[![l]][28l]  |
-| 34 |[Find First and Last Position of Element in Sorted Array][34] |[![j]][34sj]  |[Medium][m] |[![l]][34l]  |
-| 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |[![l]][35l]  |
-| 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |[![l]][38l]  |
-| 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |[![l]][53l]  |
-| 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |[![l]][58l]  |
-| 66 |[Plus One][66] |[![c]][66sc]&nbsp;&nbsp;[![j]][66sj]  |[Easy][e] |[![l]][66l]  |
-| 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |[![l]][67l]  |
-| 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |[![l]][69l]  |
-| 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |[![l]][70l]  |
-| 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |[![l]][79l]  |
-| 83 |[Remove Duplicates from Sorted List][83] |[![c++]][83scp]&nbsp;&nbsp;[![j]][83sj] |[Easy][e] |[![l]][83l]  |
-| 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |[![l]][88l]  |
-| 100 |[Same Tree][100] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]  |[Easy][e] |  |
-| 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[![l]][101l]  |
-| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |[![l]][105l]  |
-| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |[![l]][113l]  |
-| 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |[![l]][118l]  |
-| 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |[![l]][119l]  |
-| 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |[![l]][121l]  |
-| 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |[![l]][122l]  |
-| 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |[![l]][160l]  |
-| 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |[![l]][167l]  |
-| 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |[![l]][169l]  |
-| 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |[![l]][189l]  |
-| 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |[![l]][198l]  |
-| 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |[![l]][217l]  |
-| 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |[![l]][219l]  |
-| 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |[![l]][226l]  |
-| 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |[![l]][264l]  |
-| 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |[![l]][268l]  |
-| 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |[![l]][295l]  |
-| 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |[![l]][297l]  |
-| 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |[![l]][303l]  |
-| 400 |[Nth Digit][400] |[![j]][400sj]  |[Medium][m] |[![l]][400l]  |
-| 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |[![l]][414l]  |
-| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |[![l]][426l]  |
-| 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |[![l]][448l]  |
-| 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |[![l]][485l]  |
-| 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |[![l]][509l]  |
-| 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |[![l]][561l]  |
-| 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |[![l]][566l]  |
-| 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |[![l]][581l]  |
-| 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |[![l]][605l]  |
-| 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |[![l]][628l]  |
-| 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |[![l]][746l]  |
-| 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |[![l]][747l]  |
-| 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |[![l]][766l]  |
-| 830 |[Positions of Large Groups][830] |[![j]][830sj]  |[Easy][e] |[![l]][830l]  |
-| 832 |[Flipping an Image][832] |[![j]][832sj]  |[Easy][e] |[![l]][832l]  |
-| 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |[![l]][867l]  |
-| 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |[![l]][905l]  |
-| 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |[![l]][922l]  |
-| 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |[![l]][1025l]  |
+| #    | Title                | Solutions                                        | Difficulty        | Tags |
+| ----| ------------      | ----------------------------------          | ----------        | ---|
+| 1    | [Two Sum][1] |[![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr] | [Easy][e]         |      |
+| 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |  |
+| 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |  |
+| 11 |[Container With Most Water][11]  |[![c]][11sc]&nbsp;&nbsp;[![r]][11sr]  |[Medium][m] |  |
+| 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |  |
+| 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |  |
+| 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |  |
+| 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |  |
+| 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |  |
+| 34 |[Find First and Last Position of Element in Sorted Array][34] |[![j]][34sj]  |[Medium][m] |  |
+| 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |  |
+| 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |  |
+| 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |  |
+| 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |  |
+| 66 |[Plus One][66] |[![c]][66sc]&nbsp;&nbsp;[![j]][66sj]  |[Easy][e] |  |
+| 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |  |
+| 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |  |
+| 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |  |
+| 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |  |
+| 83 |[Remove Duplicates from Sorted List][83] |[![c++]][83scp]&nbsp;&nbsp;[![j]][83sj] |[Easy][e] |  |
+| 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |  |
+| 100 |[Same Tree][100] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]  |[Easy][e] | Tree |
+| 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[][101l]  |
+| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |  |
+| 111 |[Minimum Depth of Binary Tree][111] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
+| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |  |
+| 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |  |
+| 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |  |
+| 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |  |
+| 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |  |
+| 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |  |
+| 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
+| 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |  |
+| 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |189l]  |
+| 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
+| 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
+| 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
+| 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
+| 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
+| 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
+| 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
+| 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |  |
+| 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |  |
+| 400 |[Nth Digit][400] |[![j]][400sj]  |[Medium][m] |  |
+| 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |  |
+| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |  |
+| 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |  |
+| 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |  |
+| 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |  |
+| 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |  |
+| 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |  |
+| 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |  |
+| 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |  |
+| 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |  |
+| 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |  |
+| 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |  |
+| 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |  |
+| 830 |[Positions of Large Groups][830] |[![j]][830sj]  |[Easy][e] |  |
+| 832 |[Flipping an Image][832] |[![j]][832sj]  |[Easy][e] |  |
+| 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |  |
+| 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |  |
+| 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |  |
+| 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |  |
 
 
 
@@ -175,6 +176,7 @@ Author:  Alen Zhang
 [100]:./Easy/0100-Same%20Tree/README.md#100-same-tree
 [101]:./Easy/0101-Symmetric%20Tree/README.md#101-symmetric-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
+[111]:./Easy/0111-Minimum%20Depth%20of%20Binary%20Tree/README.md#111-minimum-depth-of-binary-tree
 [113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
