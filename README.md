@@ -29,7 +29,8 @@ Author:  Alen Zhang
 | 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |[][101l]  |
 | 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |  |
 | 111 |[Minimum Depth of Binary Tree][111] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
-| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] |  |
+| 112 |[Path Sum][112] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
+| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] | Tree |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |  |
@@ -37,7 +38,7 @@ Author:  Alen Zhang
 | 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |  |
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
 | 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |  |
-| 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |189l]  |
+| 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
@@ -177,6 +178,7 @@ Author:  Alen Zhang
 [101]:./Easy/0101-Symmetric%20Tree/README.md#101-symmetric-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
 [111]:./Easy/0111-Minimum%20Depth%20of%20Binary%20Tree/README.md#111-minimum-depth-of-binary-tree
+[112]:./Easy/0112-Path%20Sum%20II/README.md#112-path-sum
 [113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
