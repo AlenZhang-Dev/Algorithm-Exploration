@@ -58,6 +58,7 @@ Author:  Alen Zhang
 | 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |  |
 | 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |  |
 | 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |  |
+| 589 |[N-ary Tree Preorder Traversal][589] |![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |  |
 | 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |  |
@@ -208,6 +209,7 @@ Author:  Alen Zhang
 [561]:/Easy/0561-Array%20Partition%20I/README.md#561-array-partition-i
 [566]:./Easy/0566-Reshape%20the%20Matrix/README.md#566-resharp-the-matrix
 [581]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#581-shortest-unsorted-continuous-subarray
+[589]:./Easy/0589-N-ary%20Tree%20Preorder%20Traversal/README.md#589-n-ary-tree-preorder-traversal
 [605]:./Easy/0605-Can%20Place%20Flowers/README.md#605-can-place-flowers
 [628]:./Easy/0628-Maximum%20Product%20of%20Three%20Numbers/README.md#628-maximum-product-of-three-numbers
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
