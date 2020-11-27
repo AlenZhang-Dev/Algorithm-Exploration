@@ -69,6 +69,7 @@ Author:  Alen Zhang
 | 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |  |
 | 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |  |
 | 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |  |
+| 1022 |[Sum of Root To Leaf Binary Numbers][1022] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |  |
 
 
@@ -220,6 +221,7 @@ Author:  Alen Zhang
 [867]:./Easy/0867-Transpose%20Matrix/README.md#867-transpose-matrix
 [905]:./Easy/0905-Sort%20Array%20By%20Parity/README.md#905-sort-array-by-parity
 [922]:./Easy/0922-Sort%20Array%20By%20Parity%20II/README.md#922-sort-array-by-parity-II
+[1022]:./Easy/1022-Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers/README.md#1022-sum-of-root-to-leaf-binary-numbers
 [1025]:./Easy/1025-Divisor%20Game/README.md#1025-divisor-game
 
 [1sc]:./Easy/0001-Two%20Sum/README.md#solutions-c
