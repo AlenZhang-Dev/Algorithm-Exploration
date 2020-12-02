@@ -60,6 +60,7 @@ Author:  Alen Zhang
 | 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |  |
 | 589 |[N-ary Tree Preorder Traversal][589] |![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |  |
+| 606 |[Construct String from Binary Tree][606] |![][c++]&nbsp;&nbsp;![][j]  |[Easy][e] |  |
 | 617 |[Merge Two Binary Trees][617] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |  |
@@ -183,7 +184,7 @@ Author:  Alen Zhang
 [104]:./Easy/0104-Maximum%20Depth%20of%20Binary%20Tree/README.md#104-maximum-depth-of-binary-tree
 [105]:./Easy/0105-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md#105-construct-binary-tree-from-preorder-and-Inorde-traversal
 [111]:./Easy/0111-Minimum%20Depth%20of%20Binary%20Tree/README.md#111-minimum-depth-of-binary-tree
-[112]:./Easy/0112-Path%20Sum%20/README.md#112-path-sum
+[112]:./Easy/0112-Path%20Sum/README.md#112-path-sum
 [113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
@@ -213,6 +214,7 @@ Author:  Alen Zhang
 [581]:./Easy/0581-Shortest%20Unsorted%20Continuous%20Subarray/README.md#581-shortest-unsorted-continuous-subarray
 [589]:./Easy/0589-N-ary%20Tree%20Preorder%20Traversal/README.md#589-n-ary-tree-preorder-traversal
 [605]:./Easy/0605-Can%20Place%20Flowers/README.md#605-can-place-flowers
+[606]:./Easy/0606-Construct%20String%20from%20Binary%20Tree/README.md#606-construct-string-from-binary-tree
 [617]:./Easy/0617-Merge%20Two%20Binary%20Trees/README.md#617-merge-two-binary-trees
 [628]:./Easy/0628-Maximum%20Product%20of%20Three%20Numbers/README.md#628-maximum-product-of-three-numbers
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
