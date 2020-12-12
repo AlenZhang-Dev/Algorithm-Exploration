@@ -66,6 +66,7 @@ Author:  Alen Zhang
 | 606 |[Construct String from Binary Tree][606] |![][c++]&nbsp;&nbsp;![][j]  |[Easy][e] |  |
 | 617 |[Merge Two Binary Trees][617] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |  |
+| 637 |[Average of Levels in Binary Tree][637] | ![c++][]&nbsp;&nbsp;![j][] |[Easy][e] |  |
 | 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |  |
 | 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |  |
 | 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |  |
@@ -223,6 +224,7 @@ Author:  Alen Zhang
 [606]:./Easy/0606-Construct%20String%20from%20Binary%20Tree/README.md#606-construct-string-from-binary-tree
 [617]:./Easy/0617-Merge%20Two%20Binary%20Trees/README.md#617-merge-two-binary-trees
 [628]:./Easy/0628-Maximum%20Product%20of%20Three%20Numbers/README.md#628-maximum-product-of-three-numbers
+[637]:./Easy/0637-Average%20of%20Levels%20in%20Binary%20Tree/README.md#637-average-of-levels-in-binary-tree
 [746]:./Easy/0746-Min%20Cost%20Climbing%20Stairs/README.md#746-min-cost-climbing-stairs
 [747]:./Easy/0747-Largest%20Number%20At%20Least%20Twice%20of%20Others/README.md#747-largest-number-at-least-twice-of-others
 [766]:./Easy/0766-Toeplitz%20Matrix/README.md#766-toeplitz-matrix
