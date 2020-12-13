@@ -54,7 +54,8 @@ Author:  Alen Zhang
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |  |
 | 400 |[Nth Digit][400] |[![j]][400sj]  |[Medium][m] |  |
 | 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |  |
-| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][e] |  |
+| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][m] |  |
+| 429 |[N-ary Tree Level Order Traversal][429] |![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
 | 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |  |
 | 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |  |
 | 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |  |
@@ -213,6 +214,7 @@ Author:  Alen Zhang
 [400]:./Medium/0400-Nth%20Digit/README.md#400-nth-digit
 [414]:./Easy/0414-Third%20Maximum%20Number/README.md#414-third-maximum-number
 [426]:./Medium/0426-Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List/README.md#426-convert-binary-search-tree-to-sorted-doubly-linked-list
+[429]:./Medium/0429-N-ary%20Tree%20Level%20Order%20Traversal/README.md#429-n-ary-tree-level-order-traversal
 [448]:./Easy/0448-Find%20All%20Numbers%20Disappeared%20In%20An%20Array/README.md#448-find-all-numbers-disappeared-in-an-array
 [485]:./Easy/0485-Max%20Consecutive%20Ones/README.md#485-max-consecutive-ones
 [509]:/Easy/0509-Fibonacci%20Number/README.md#509-fibonacci-number
@@ -325,71 +327,6 @@ Author:  Alen Zhang
 [922sj]:./Easy/0922-Sort%20Array%20By%20Parity%20II/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
-
-
-[1l]:https://leetcode.com/problems/two-sum/
-[7l]:https://leetcode.com/problems/reverse-integer/
-[9l]:https://leetcode.com/problems/palindrome-number/
-[11l]:https://leetcode.com/problems/container-with-most-water/
-[20l]:https://leetcode.com/problems/valid-parentheses/
-[21l]:https://leetcode.com/problems/merge-two-sorted-lists/
-[26l]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-[27l]:https://leetcode.com/problems/remove-element/
-[28l]:https://leetcode.com/problems/implement-strstr/
-[34l]:https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-[35l]:https://leetcode.com/problems/search-insert-position/
-[38l]:https://leetcode.com/problems/count-and-say/
-[53l]:https://leetcode.com/problems/maximum-subarray/
-[58l]:https://leetcode.com/problems/length-of-last-word/
-[66l]:https://leetcode-cn.com/problems/plus-one/
-[67l]:https://leetcode-cn.com/problems/add-binary/
-[69l]:https://leetcode.com/problems/sqrtx/
-[70l]:https://leetcode.com/problems/climbing-stairs/
-[79l]:https://leetcode.com/problems/word-search/
-[83l]:https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-[88l]:https://leetcode.com/problems/merge-sorted-array/
-[101l]:https://leetcode.com/problems/symmetric-tree/
-[105l]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
-[113l]:https://leetcode.com/problems/path-sum-ii/
-[118l]:https://leetcode.com/problems/pascals-triangle/
-[119l]:https://leetcode.com/problems/pascals-triangle-ii/
-[121l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-[122l]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-[160l]:https://leetcode.com/problems/intersection-of-two-linked-lists/
-[167l]:https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-[169l]:https://leetcode.com/problems/majority-element/
-[189l]:https://leetcode.com/problems/rotate-array/
-[198l]:https://leetcode.com/problems/house-robber/
-[217l]:https://leetcode.com/problems/contains-duplicate/
-[219l]:https://leetcode.com/problems/contains-duplicate-ii/
-[226l]:https://leetcode.com/problems/invert-binary-tree/
-[264l]:https://leetcode.com/problems/ugly-number-ii/
-[268l]:https://leetcode.com/problems/missing-number/
-[295l]:https://leetcode.com/problems/find-median-from-data-stream/
-[297l]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
-[303l]:https://leetcode-cn.com/problems/range-sum-query-immutable/
-[400l]:https://leetcode.com/problems/nth-digit/
-[414l]:https://leetcode.com/problems/third-maximum-number/
-[426l]:https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
-[448l]:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
-[485l]:https://leetcode.com/problems/max-consecutive-ones/
-[509l]:https://leetcode.com/problems/fibonacci-number/
-[561l]:https://leetcode.com/problems/array-partition-i/
-[581l]:https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
-[566l]:https://leetcode.com/problems/reshape-the-matrix/
-[605l]:https://leetcode.com/problems/can-place-flowers/
-[628l]:https://leetcode.com/problems/maximum-product-of-three-numbers/
-[746l]:https://leetcode.com/problems/min-cost-climbing-stairs/
-[766l]:https://leetcode.com/problems/toeplitz-matrix/
-[747l]:https://leetcode.com/problems/largest-number-at-least-twice-of-others/
-[830l]:https://leetcode.com/problems/positions-of-large-groups/
-[832l]:https://leetcode.com/problems/flipping-an-image/
-[867l]:https://leetcode.com/problems/transpose-matrix/
-[905l]:https://leetcode.com/problems/sort-array-by-parity/
-[922l]:https://leetcode.com/problems/sort-array-by-parity-ii/
-[1025l]:https://leetcode-cn.com/problems/divisor-game/
-
-
 
 
 [3o]:./Offer/03-数组中重复的数字/README.md
