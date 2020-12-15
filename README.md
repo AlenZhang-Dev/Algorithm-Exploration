@@ -34,6 +34,8 @@ Author:  Alen Zhang
 | 111 |[Minimum Depth of Binary Tree][111] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
 | 112 |[Path Sum][112] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
 | 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] | Tree |
+| 116 |[Populating Next Right Pointers in Each Node][116] |![][c++]&nbsp;&nbsp;![][j]   |[Medium][m] | Tree |
+| 117 |[Populating Next Right Pointers in Each Node II][117] |![][c++]&nbsp;&nbsp;![][j]    |[Medium][m] | Tree |
 | 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |  |
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |  |
@@ -194,6 +196,8 @@ Author:  Alen Zhang
 [111]:./Easy/0111-Minimum%20Depth%20of%20Binary%20Tree/README.md#111-minimum-depth-of-binary-tree
 [112]:./Easy/0112-Path%20Sum/README.md#112-path-sum
 [113]:./Medium/0113-Path%20Sum%20II/README.md#113-path-sum-II
+[116]:./Medium/0116-Populating%20Next%20Right%20Pointers%20in%20Each%20Node#populating-next-right-pointers-in-each-node
+[117]:./Medium/0117-Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II#populating-next-right-pointers-in-each-node-ii
 [118]:./Easy/0118-Pascal's%20Triangle/README.md#118-pascal's-triangle
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
