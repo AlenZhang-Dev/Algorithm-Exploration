@@ -26,7 +26,7 @@ Author:  Alen Zhang
 | 83 |[Remove Duplicates from Sorted List][83] |[![c++]][83scp]&nbsp;&nbsp;[![j]][83sj] |[Easy][e] |  |
 | 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |  |
 | 100 |[Same Tree][100] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]  |[Easy][e] | Tree |
-| 101 |[Symmetric Tree][101] |[![c++]][101scp]&nbsp;&nbsp;[![j]][101sj]   |[Easy][e] |  |
+| 101 |[Symmetric Tree][101] |![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]   |[Easy][e] |  |
 | 102 |[Binary Tree Level Order Traversal][102] |![c++][]&nbsp;&nbsp;![j][]   |[Easy][e] |  |
 | 104 |[Maximum Depth of Binary Tree][104] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
 | 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |  |
