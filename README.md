@@ -40,8 +40,10 @@ Author:  Alen Zhang
 | 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |  |
 | 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |  |
 | 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |  |
+| 155 | [Min Stack][155] | ![][c++]  ![][j] ![][p] | [Easy][e] ||
 | 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |  |
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
+| 168 |[Excel Sheet column Title][168] |![][j]|[Easy][e] |  |
 | 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
@@ -202,8 +204,10 @@ Author:  Alen Zhang
 [119]:./Easy/0119-Pascal's%20Triangle%20II/README.md#119-pascal's-triangle-ii
 [121]:./Easy/0121-Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md#121-best-time-to-buy-and-sell-stock
 [122]:./Easy/0122-Best%Time%20to%20Buy%20and%20Sell%20Stock%20II#122-best-time-to-buy-and-sell-stock-ii
+[155]:./Easy/0155-Min%20Stack#155-min-stack
 [160]:./Easy/0160-Intersection%20of%20Two%20Linked%20Lists#160-intersection-of-two-linked-lists
 [167]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#167-two-sum-ii---input-array-is-sorted
+[168]:./Easy/0168-Excel%20Sheet%20Column%20Title/README.md#168-excel-sheet-column-title
 [169]:.Easy/0169-Majority%20Element/README.md#169-majority-element
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
