@@ -45,6 +45,7 @@ Author:  Alen Zhang
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
 | 168 |[Excel Sheet column Title][168] |![][j]|[Easy][e] |  |
 | 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |  |
+| 171 |[Excel Sheet Column Number][171] |![][j] ![][p]|[Easy][e] |  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
 | 199 |[Binary Tree Right Side View][199] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
@@ -209,6 +210,7 @@ Author:  Alen Zhang
 [167]:./Easy/0167-Two%20Sum%20II%20-%20Input%20array%20is%20sorted/README.md#167-two-sum-ii---input-array-is-sorted
 [168]:./Easy/0168-Excel%20Sheet%20Column%20Title/README.md#168-excel-sheet-column-title
 [169]:.Easy/0169-Majority%20Element/README.md#169-majority-element
+[171]:./Easy/0171-Excel%20Sheet%20Column%20Number/README.md#171-excel-sheet-column-number
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [199]:./Medium/0199-Binary%20Tree%20Right%20Side%20View/README.md#199-binary-tree-right-side-view
