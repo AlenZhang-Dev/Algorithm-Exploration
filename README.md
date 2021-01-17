@@ -48,6 +48,8 @@ Author:  Alen Zhang
 | 171 |[Excel Sheet Column Number][171] |![][j] ![][p]|[Easy][e] |  |
 | 172 |[Factorial Trailing Zeroes][172] |![][c] ![][j] ![][p]|[Easy][e] |  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
+| 190 |[Reverse Bits][190] |[![j]][190sj] |[Easy][e] |  |
+| 191 |[Number of 1 Bits][191] |[![j]][191sj] |[Easy][e] |  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
 | 199 |[Binary Tree Right Side View][199] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
@@ -214,6 +216,8 @@ Author:  Alen Zhang
 [171]:./Easy/0171-Excel%20Sheet%20Column%20Number/README.md#171-excel-sheet-column-number
 [172]:./Easy/0172-Factorial%20Trailing%20Zeroes/README.md#172-factorial-trailing-zeroes
 [189]:./Easy/0189-Rotate%20Array/README.md#189-ratate-array
+[190]:./Easy/0190-Reverse%20Bits/README.md#190-reverse-bits
+[191]:./Easy/0191-Number%20of%201%20Bits/README.md#190-number-of-bits
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [199]:./Medium/0199-Binary%20Tree%20Right%20Side%20View/README.md#199-binary-tree-right-side-view
 [217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
