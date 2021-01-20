@@ -53,6 +53,7 @@ Author:  Alen Zhang
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
 | 199 |[Binary Tree Right Side View][199] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
 | 202 |[Happy Number][202] |![][j]  |[Easy][e] |  |
+| 203 |[Remove Linked List Elements][203] |![][c]  ![][j]  |[Easy][e] |  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
@@ -222,6 +223,7 @@ Author:  Alen Zhang
 [198]:./Easy/0198-House%20Robber/README.md#198-house-robber
 [199]:./Medium/0199-Binary%20Tree%20Right%20Side%20View/README.md#199-binary-tree-right-side-view
 [202]:./Easy/0202-Happy%Number/README.md#202-happy-number
+[203]:./Easy/0203-Remove%Linked%20List%20Elements/README.md#203-remove-linked-list-elements
 [217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
 [219]:./Easy/0219-Contains%20Duplicate%20II/README.md#219-contains-duplicate-ii
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
