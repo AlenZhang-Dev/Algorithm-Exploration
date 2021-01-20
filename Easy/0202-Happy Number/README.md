@@ -41,7 +41,7 @@ Output: false
 
 ## Solutions (Java)
 
-### 1. Fast and Slow Pointer
+### 1. Two Pointers [Faster and slower]
 
 ```c
 class Solution {
