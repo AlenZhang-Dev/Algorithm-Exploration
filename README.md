@@ -59,6 +59,7 @@ Author:  Alen Zhang
 | 206 |[Reverse Linked List][206] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
 | 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
+| 225 |[Implement Stack using Queues][225] |![][j] |[Easy][e] |  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
@@ -232,6 +233,7 @@ Author:  Alen Zhang
 [206]:./Easy/0206-Reverse%20Linked%20List/README.md#206-reverse-linked-list
 [217]:./Easy/0217-Contains%20Duplicate/README.md#217-contains-duplicate
 [219]:./Easy/0219-Contains%20Duplicate%20II/README.md#219-contains-duplicate-ii
+[225]:./Easy/0225-Implement%20Stack%20using%20Queues/README.md#225-implement-stack-using-queues
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
