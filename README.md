@@ -48,8 +48,8 @@ Author:  Alen Zhang
 | 171 |[Excel Sheet Column Number][171] |![][j] ![][p]|[Easy][e] |  |
 | 172 |[Factorial Trailing Zeroes][172] |![][c] ![][j] ![][p]|[Easy][e] |  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
-| 190 |[Reverse Bits][190] |[![j]][190sj] |[Easy][e] |  |
-| 191 |[Number of 1 Bits][191] |[![j]][191sj] |[Easy][e] |  |
+| 190 |[Reverse Bits][190] |![][j] |[Easy][e] |  |
+| 191 |[Number of 1 Bits][191] |![][j] |[Easy][e] |  |
 | 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
 | 199 |[Binary Tree Right Side View][199] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
 | 202 |[Happy Number][202] |![][j]  |[Easy][e] |  |
@@ -61,6 +61,7 @@ Author:  Alen Zhang
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
 | 225 |[Implement Stack using Queues][225] |![][j] |[Easy][e] |  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
+| 231 |[Power of Two][231] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
@@ -235,6 +236,7 @@ Author:  Alen Zhang
 [219]:./Easy/0219-Contains%20Duplicate%20II/README.md#219-contains-duplicate-ii
 [225]:./Easy/0225-Implement%20Stack%20using%20Queues/README.md#225-implement-stack-using-queues
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
+[231]:./Easy/0231-Power%of%20Two/README.md#231-power-of-two
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
