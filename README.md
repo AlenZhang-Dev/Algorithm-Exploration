@@ -61,7 +61,9 @@ Author:  Alen Zhang
 | 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
 | 225 |[Implement Stack using Queues][225] |![][j] |[Easy][e] |  |
 | 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
+| 228 |[Summary Ranges][228] |![][j] |[Easy][e] |  |
 | 231 |[Power of Two][231] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
+| 232 |[Implement Queue using Stacks][232] |![][j] |[Easy][e] |  |
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
@@ -236,7 +238,9 @@ Author:  Alen Zhang
 [219]:./Easy/0219-Contains%20Duplicate%20II/README.md#219-contains-duplicate-ii
 [225]:./Easy/0225-Implement%20Stack%20using%20Queues/README.md#225-implement-stack-using-queues
 [226]:./Easy/0226-Invert%20Binary%20Tree/README.md#226-invert-binary-tree
+[228]:./Easy/0228-Summary%20Ranges/README.md#228-summary-ranges
 [231]:./Easy/0231-Power%of%20Two/README.md#231-power-of-two
+[232]:./Easy/0232-Implement%Queue%20using%20Stacks/README.md#232-implement-queue-using-stacks
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream

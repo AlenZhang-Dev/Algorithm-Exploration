@@ -48,3 +48,120 @@ myQueue.empty(); // return false
 
 ## Solutions (Java)
 
+### Deque
+
+```java
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+class MyQueue {
+    private Deque<Integer> StackIn;
+    private Deque<Integer> StackOut;
+
+    /** Initialize your data structure here. */
+    public MyQueue() {
+        StackIn = new ArrayDeque<>();
+        StackOut = new ArrayDeque<>();
+    }
+    
+    /** Push element x to the back of queue. */
+    public void push(int x) {
+        StackIn.addLast(x);
+    }
+    
+    /** Removes the element from in front of queue and returns that element. */
+    public int pop() {
+        if (!StackOut.isEmpty()) {
+            return StackOut.removeLast();
+        }
+        while (!StackIn.isEmpty()) {
+            StackOut.addLast(StackIn.removeLast());
+        }
+        return StackOut.removeLast();
+    }
+    
+    /** Get the front element. */
+    public int peek() {
+        if (!StackOut.isEmpty()) {
+            return StackOut.peekLast();
+        }
+        while (!StackIn.isEmpty()) {
+            StackOut.addLast(StackIn.removeLast());
+        }
+        return StackOut.peekLast();
+    }
+    
+    /** Returns whether the queue is empty. */
+    public boolean empty() {
+        return StackIn.isEmpty() && StackOut.isEmpty();
+    }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue obj = new MyQueue();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.peek();
+ * boolean param_4 = obj.empty();
+ */
+```
+
+### Stack
+
+```java
+import java.util.Stack;
+
+class MyQueue {
+    private Stack<Integer> StackIn;
+    private Stack<Integer> StackOut;
+
+    /** Initialize your data structure here. */
+    public MyQueue() {
+        StackIn = new Stack<>();
+        StackOut = new Stack<>();
+    }
+    
+    /** Push element x to the back of queue. */
+    public void push(int x) {
+        StackIn.push(x);
+    }
+    
+    /** Removes the element from in front of queue and returns that element. */
+    public int pop() {
+        if (!StackOut.isEmpty()) {
+            return StackOut.pop();
+        }
+        while (!StackIn.isEmpty()) {
+            StackOut.push(StackIn.pop());
+        }
+        return StackOut.pop();
+    }
+    
+    /** Get the front element. */
+    public int peek() {
+        if (!StackOut.isEmpty()) {
+            return StackOut.peek();
+        }
+        while (!StackIn.isEmpty()) {
+            StackOut.push(StackIn.pop());
+        }
+        return StackOut.peek();
+    }
+    
+    /** Returns whether the queue is empty. */
+    public boolean empty() {
+        return StackIn.isEmpty() && StackOut.isEmpty();
+    }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue obj = new MyQueue();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.peek();
+ * boolean param_4 = obj.empty();
+ */
+```
+
