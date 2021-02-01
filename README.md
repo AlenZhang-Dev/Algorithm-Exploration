@@ -65,6 +65,7 @@ Author:  Alen Zhang
 | 231 |[Power of Two][231] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
 | 232 |[Implement Queue using Stacks][232] |![][j] |[Easy][e] |  |
 | 234 |[Palindrome Linked List][234] |![][j] |[Easy][e] |  |
+| 235 |[Lowest Common Ancestor of a Binary Search Tree][235] |![][j] |[Easy][e] |  |
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
@@ -243,6 +244,7 @@ Author:  Alen Zhang
 [231]:./Easy/0231-Power%of%20Two/README.md#231-power-of-two
 [232]:./Easy/0232-Implement%Queue%20using%20Stacks/README.md#232-implement-queue-using-stacks
 [234]:./Easy/0234-Palindrom%20Linked%20List/README.md#234-palindrom-linked-list
+[235]:./Easy/0235-Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/README.md#235-lowest-common-ancestor-of-a-binary-search-tree
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
