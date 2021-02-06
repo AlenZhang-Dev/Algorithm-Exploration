@@ -70,6 +70,7 @@ Author:  Alen Zhang
 | 242 |[Valid Anagram][242] |![][c]  ![][j] |[Easy][e] |  |
 | 257 |[Binary Tree Paths][257] |![][c++]  ![][j] |[Easy][e] |  |
 | 258 |[Add Digits][258] |![][c++]  ![][j] |[Easy][e] |  |
+| 263 |[Ugly Number][263] |![][j]  |[Easy][e] |  |
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
@@ -253,6 +254,7 @@ Author:  Alen Zhang
 [242]:./Easy/0242-Valid%20Anagram#242-valid-anagram
 [257]:./Easy/0257-Binary%20Tree%20Path#257-binary-tree-path
 [258]:./Easy/0258-Add%20Digits#258-add-digits
+[263]:./Easy/0263-Ugly%20Number/README.md#263-ugly-number
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
