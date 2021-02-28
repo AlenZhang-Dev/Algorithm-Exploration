@@ -74,6 +74,7 @@ Author:  Alen Zhang
 | 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
 | 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
 | 278 |[First Bad Version][278] |![][c]  ![][j]  ![][p] |[Easy][e] |  |
+| 283 |[Move Zeroes][283] |![][c]  ![][j]  |[Easy][e] |  |
 | 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
 | 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |  |
 | 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |  |
@@ -259,6 +260,7 @@ Author:  Alen Zhang
 [264]:./Medium/0264-Ugly%20Number%20II/README.md#264-ugly-number-ii
 [268]:./Easy/0268-Missing%20Number/README.md#268-missing-number
 [278]:./Easy/0278-First%20Bad%20Version/README.md#278-first-bad-version
+[283]:./Easy/0283-Move%20Zeroes/README.md#283-move-zeroes
 [295]:./Hard/0295-Find%20Median%20from%20Data%20Stream/README.md#find-median-from-data-stream
 [297]:./Hard/0297-Serialize%20and%20Deserialize%20Binary%20Tree/README.md#serialize-and-deserialize-binary-tree
 [303]:./Easy/0303-Range%20Sum%20Query%20-%20Immutable/README.md#303-range-sum-query-immutable
