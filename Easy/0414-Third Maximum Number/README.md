@@ -79,4 +79,30 @@ class Solution {
 
 
 
+### 2. Compare
+
+```java
+class Solution {
+		public int thirdMax(int[] nums) {
+      	long firstMax = Long.MIN_VALUE, secondMax = Long.MIN_VALUE, thirdMax = Long.MIN_VALUE;
+      	for (int num : nums) {
+          	if (thirdMax >= num || secondMax == num || firstMax == num)
+       					continue;
+        		if (firstMax < num) {
+              	thirdMax = secondMax;
+              	secondMax = firstMax;
+              	firstMax = num;
+            } else if (secondMax < num) {
+              	thirdMax = secondMax;
+              	secondMax = num;
+            } else if (thirdMax < num){
+              	thirdMax = num;
+            }
+        }
+      	return (int)(thirdMax == Long.MIN_VALUE ? (int)firstMax : (int)thirdMax); 
+    }
+}
+```
+
+
 
