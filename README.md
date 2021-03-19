@@ -1,6 +1,10 @@
-# Leetcode 
+# Algorithms Exploration
+
+## Leetcode 
 
 Author:  Alen Zhang
+
+* Rust Ruby Python Solutions  => [fruit-in/Leetcode](https://github.com/fruit-in/leetcode)
 
 | #    | Title                | Solutions                                        | Difficulty        | Tags |
 | ----| ------------      | ----------------------------------          | ----------        | ---|
@@ -107,13 +111,14 @@ Author:  Alen Zhang
 | 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |  |
 | 1022 |[Sum of Root To Leaf Binary Numbers][1022] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
 | 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |  |
+| 1207 |[Unique Number of Occurrences][1207] |![][c++]![][j]	|[Easy][e] |  |
 
 
 
 
 
 ---
-# 剑指Offer 
+## 剑指Offer 
 | #    | Titile                 | Tags | Solutions |
 | ---- | ---------------------- | ------------ | ------------ |
 | 3    | [数组中重复的数字][3o] | 数组、二分法 | ![][j] |

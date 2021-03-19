@@ -1,20 +1,30 @@
+/**
+ * The MergeSort is combined with merge and sort.
+ * Use the dive and conquer strategy
+ */
 package package01;
 
 import java.util.Arrays;
 
-public class InsertionSort {
-    public static void InsertionSort(int arr[]) {
-        int i, j, temp;
-        if (arr == null || arr.length < 2) {
-            return;
+public class MergeSort {
+    public static void merge(int arr[], int l, int m, int r) {
+        //count the size of the two array
+        int length1 = m - l + 1;
+        int length2 = l - m;
+        // create the temp arrays to store the numbers.
+        int L[] = new int[length1];
+        int R[] = new int[length2];
+        for (int i = 0; i< length1; ++i) {
+            L[i] = arr[length1 + i];
         }
-        for (i = 1; i < arr.length; i++) {
-            temp = arr[i];
-            for (j = i - 1; j >= 0 && arr[j] > temp; j--) {
-                arr[j + 1] = arr[j];
-            }
-            arr[j + 1] = temp;
+        for (int j = 0; i< length2; ++j) {
+            L[j] = arr[m + ];
         }
+
+    }
+
+    public static void sort(int arr[]) {
+
     }
 
 
@@ -81,13 +91,13 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 10;
+        int maxSize = 1000;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            InsertionSort(arr1);
+            mergeSort(arr1, 0, arr1.length - 1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -103,13 +113,10 @@ public class InsertionSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        InsertionSort(arr);
+        mergeSort(arr, 0, arr.length - 1);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
 
-
-
 }
-

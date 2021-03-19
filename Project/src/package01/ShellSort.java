@@ -2,18 +2,51 @@ package package01;
 
 import java.util.Arrays;
 
-public class InsertionSort {
-    public static void InsertionSort(int arr[]) {
-        int i, j, temp;
-        if (arr == null || arr.length < 2) {
-            return;
-        }
-        for (i = 1; i < arr.length; i++) {
-            temp = arr[i];
-            for (j = i - 1; j >= 0 && arr[j] > temp; j--) {
-                arr[j + 1] = arr[j];
+public class ShellSort {
+    //Tradition solution
+//    public static void ShellSortTradition(int arr[]) {
+//        int i, j, gap, temp;
+//        for (gap = arr.length / 2; gap > 0; gap /= 2) {
+//            //inseration sort
+//            for (i = gap; i <= arr.length; ++i) {
+//                temp = arr[i];
+//                if(arr[i - gap] > arr[i])
+//                    for (j = i; j >= 0 ; j -= gap) {
+//                        arr[j] = arr[j - gap];
+//                    }
+//
+//            }
+//        }
+//    }
+
+    public static void ShellSort(int arr[]) {
+        //exchange
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < arr.length; i++) {
+                //每次都与相隔gap位的值进行比较
+                int j = i;
+                while (j - gap >= 0 && arr[j] < arr[j - gap]) {
+                    //swap the element
+                    swap(arr, j, j - gap);
+                    j -= gap;
+                }
             }
-            arr[j + 1] = temp;
+        }
+    }
+
+    //move
+    public static void ShellSort_move(int arr[]) {
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < arr.length; i++) {
+                //每次都与相隔gap位的值进行比较
+                int j = i;
+                int temp = arr[i];
+                while (j - gap >= 0 && arr[j] < arr[j - gap]) {
+                    arr[j] = arr[j - gap];
+                    j -= gap;
+                }
+                arr[j] = temp;
+            }
         }
     }
 
@@ -87,7 +120,7 @@ public class InsertionSort {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            InsertionSort(arr1);
+            ShellSort_move(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -103,13 +136,10 @@ public class InsertionSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        InsertionSort(arr);
+        ShellSort_move(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
-
-
-
 }
 
