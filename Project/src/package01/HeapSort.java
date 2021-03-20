@@ -3,6 +3,37 @@ package package01;
 import java.util.Arrays;
 
 public class HeapSort {
+    public static void heapSort(int arr[]) {
+        int i, j;
+        for (i = arr.length / 2 - 1; i >= 0; --i) {
+            maxHeapify(arr, i, arr.length);
+        }
+        for (j = arr.length - 1; j > 0; --j) {
+            swap(arr, 0, j);
+            maxHeapify(arr, 0, j);
+        }
+    }
+
+    //Heapify a subtree from start to end.
+    public static void maxHeapify(int[] arr, int start, int end) {
+        int temp = arr[start];
+
+        for (int i = start * 2 + 1; i < end; i = i * 2 + 1) {
+            if (i + 1 < end && arr[i] < arr[i + 1]) {
+                ++i;
+            }
+//            i = (i + 1 < end && arr[i] < arr[i + 1]) ? ++i : i ;
+            if (arr[i] > temp) {
+                arr[start] = arr[i];
+                start = i;
+//                swap(arr, i, start); why swap goes run
+            } else {
+                break;
+            }
+        }
+        arr[start] = temp;
+    }
+
 
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
@@ -73,7 +104,7 @@ public class HeapSort {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            BubbleSort(arr1);
+            heapSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -89,7 +120,7 @@ public class HeapSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        BubbleSort(arr);
+        heapSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");

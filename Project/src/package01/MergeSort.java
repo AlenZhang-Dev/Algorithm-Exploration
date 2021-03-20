@@ -4,27 +4,43 @@
  */
 package package01;
 
+import com.sun.xml.internal.xsom.XSTerm;
+
 import java.util.Arrays;
 
 public class MergeSort {
-    public static void merge(int arr[], int l, int m, int r) {
-        //count the size of the two array
-        int length1 = m - l + 1;
-        int length2 = l - m;
-        // create the temp arrays to store the numbers.
-        int L[] = new int[length1];
-        int R[] = new int[length2];
-        for (int i = 0; i< length1; ++i) {
-            L[i] = arr[length1 + i];
+    public static void mergeSort(int[] arr, int start, int end) {
+        if (start < end) {
+            int mid = start + (end - start) / 2;
+            mergeSort(arr, start, mid);
+            mergeSort(arr, mid + 1, end);
+            merge(arr, start, end);
         }
-        for (int j = 0; i< length2; ++j) {
-            L[j] = arr[m + ];
-        }
-
     }
 
-    public static void sort(int arr[]) {
+    public static void merge(int[] arr, int start, int end) {
+        int temp[] = new int[end - start + 1];
+        int mid = start + (end - start) / 2;
+        int i = start, j = mid + 1, index = 0;
+        while (i <= mid && j <= end) {
+            if (arr[i] <= arr[j]) {
+                temp[index++] = arr[i++];
+            } else {
+                temp[index++] = arr[j++];
+            }
+        }
 
+        while (i <= mid) {
+            temp[index++] = arr[i++];
+        }
+
+        while (j <= end) {
+            temp[index++] = arr[j++];
+        }
+
+        for (i = start; i <= end; i++) {
+            arr[i] = temp[i - start];
+        }
     }
 
 
@@ -91,7 +107,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 1000;
+        int maxSize = 50;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
@@ -118,5 +134,4 @@ public class MergeSort {
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
-
 }

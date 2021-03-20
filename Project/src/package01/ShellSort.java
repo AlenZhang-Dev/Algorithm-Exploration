@@ -14,7 +14,6 @@ public class ShellSort {
 //                    for (j = i; j >= 0 ; j -= gap) {
 //                        arr[j] = arr[j - gap];
 //                    }
-//
 //            }
 //        }
 //    }
@@ -46,6 +45,16 @@ public class ShellSort {
                     j -= gap;
                 }
                 arr[j] = temp;
+            }
+        }
+    }
+
+    public static void ShellSortFor(int arr[]) {
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < arr.length; ++i) {
+                for (int j = i; j - gap >= 0 && arr[j] < arr[j - gap]; j -= gap){
+                    swap(arr, j, j - gap);
+                }
             }
         }
     }
@@ -120,7 +129,7 @@ public class ShellSort {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            ShellSort_move(arr1);
+            ShellSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
