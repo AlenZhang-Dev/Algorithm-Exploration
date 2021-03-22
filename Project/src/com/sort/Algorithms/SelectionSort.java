@@ -1,69 +1,37 @@
-package package01;
+/**
+ * Future work:
+ * 1. calculate the time during sorting.[Done. 3.18]
+ */
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class ShellSort {
-    //Tradition solution
-//    public static void ShellSortTradition(int arr[]) {
-//        int i, j, gap, temp;
-//        for (gap = arr.length / 2; gap > 0; gap /= 2) {
-//            //inseration sort
-//            for (i = gap; i <= arr.length; ++i) {
-//                temp = arr[i];
-//                if(arr[i - gap] > arr[i])
-//                    for (j = i; j >= 0 ; j -= gap) {
-//                        arr[j] = arr[j - gap];
-//                    }
-//            }
-//        }
-//    }
-
-    public static void ShellSort(int arr[]) {
-        //exchange
-        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
-            for (int i = gap; i < arr.length; i++) {
-                //每次都与相隔gap位的值进行比较
-                int j = i;
-                while (j - gap >= 0 && arr[j] < arr[j - gap]) {
-                    //swap the element
-                    swap(arr, j, j - gap);
-                    j -= gap;
-                }
+public class SelectionSort {
+    public static void selectionSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        //Select minimise number of the arr during every travel
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                minIndex = arr[j] < arr[minIndex] ? j : minIndex;
             }
+            swap(arr, i, minIndex);
         }
     }
-
-    //move
-    public static void ShellSort_move(int arr[]) {
-        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
-            for (int i = gap; i < arr.length; i++) {
-                //每次都与相隔gap位的值进行比较
-                int j = i;
-                int temp = arr[i];
-                while (j - gap >= 0 && arr[j] < arr[j - gap]) {
-                    arr[j] = arr[j - gap];
-                    j -= gap;
-                }
-                arr[j] = temp;
-            }
-        }
-    }
-
-    public static void ShellSortFor(int arr[]) {
-        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
-            for (int i = gap; i < arr.length; ++i) {
-                for (int j = i; j - gap >= 0 && arr[j] < arr[j - gap]; j -= gap){
-                    swap(arr, j, j - gap);
-                }
-            }
-        }
-    }
-
 
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
+    }
+
+    // report: when use bitwise operation to swap the number, those numbers can't point to the same memory address.
+    public static void swap_bitwise(int[] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 
     public static void comparator(int[] arr) {
@@ -123,13 +91,13 @@ public class ShellSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 10;
+        int maxSize = 200;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            ShellSort(arr1);
+            selectionSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -145,10 +113,10 @@ public class ShellSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        ShellSort_move(arr);
+        selectionSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
-}
 
+}

@@ -1,46 +1,46 @@
-/**
- * The MergeSort is combined with merge and sort.
- * Use the dive and conquer strategy
- */
-package package01;
-
-import com.sun.xml.internal.xsom.XSTerm;
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class MergeSort {
-    public static void mergeSort(int[] arr, int start, int end) {
-        if (start < end) {
-            int mid = start + (end - start) / 2;
-            mergeSort(arr, start, mid);
-            mergeSort(arr, mid + 1, end);
-            merge(arr, start, end);
+public class QuickSort {
+    public static void quickSort(int arr[], int low, int high) {
+        if (low < high) {
+            int Index = partition(arr, low, high);
+
+            quickSort(arr, low, Index - 1);
+            quickSort(arr, Index + 1, high);
         }
     }
-
-    public static void merge(int[] arr, int start, int end) {
-        int temp[] = new int[end - start + 1];
-        int mid = start + (end - start) / 2;
-        int i = start, j = mid + 1, index = 0;
-        while (i <= mid && j <= end) {
-            if (arr[i] <= arr[j]) {
-                temp[index++] = arr[i++];
-            } else {
-                temp[index++] = arr[j++];
+    //The goal of partition function: find the right position of pivot.
+    // Both partition functions is acceptable.
+    public static int partition(int arr[], int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1;
+        //find every number which is lower than pivot, then put those to the low side.
+        for (int j = low; j < high; ++j) {
+            if (arr[j] < pivot) {
+                ++i;
+                swap(arr, i, j);
             }
         }
+        //swap the last time
+        swap(arr, i + 1, high);
+        return i + 1;
+    }
 
-        while (i <= mid) {
-            temp[index++] = arr[i++];
+    public static int moveBothPartition(int arr[], int low, int high) {
+        int pivot = arr[high];
+        while (low < high) {
+            while (low < high && arr[low] <= pivot) {
+                ++low;
+            }
+            swap(arr, low, high);
+            while (low < high && arr[high] >= pivot) {
+                --high;
+            }
+            swap(arr, low, high);
         }
-
-        while (j <= end) {
-            temp[index++] = arr[j++];
-        }
-
-        for (i = start; i <= end; i++) {
-            arr[i] = temp[i - start];
-        }
+        return low;
     }
 
 
@@ -107,13 +107,13 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 50;
+        int maxSize = 100;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            mergeSort(arr1, 0, arr1.length - 1);
+            quickSort(arr1, 0, arr1.length - 1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -129,7 +129,7 @@ public class MergeSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        mergeSort(arr, 0, arr.length - 1);
+        quickSort(arr, 0, arr.length - 1);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");

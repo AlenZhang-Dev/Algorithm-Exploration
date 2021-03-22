@@ -1,37 +1,20 @@
-package package01;
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class HeapSort {
-    public static void heapSort(int arr[]) {
-        int i, j;
-        for (i = arr.length / 2 - 1; i >= 0; --i) {
-            maxHeapify(arr, i, arr.length);
+public class InsertionSort {
+    public static void InsertionSort(int arr[]) {
+        int i, j, temp;
+        if (arr == null || arr.length < 2) {
+            return;
         }
-        for (j = arr.length - 1; j > 0; --j) {
-            swap(arr, 0, j);
-            maxHeapify(arr, 0, j);
-        }
-    }
-
-    //Heapify a subtree from start to end.
-    public static void maxHeapify(int[] arr, int start, int end) {
-        int temp = arr[start];
-
-        for (int i = start * 2 + 1; i < end; i = i * 2 + 1) {
-            if (i + 1 < end && arr[i] < arr[i + 1]) {
-                ++i;
+        for (i = 1; i < arr.length; i++) {
+            temp = arr[i];
+            for (j = i - 1; j >= 0 && arr[j] > temp; j--) {
+                arr[j + 1] = arr[j];
             }
-//            i = (i + 1 < end && arr[i] < arr[i + 1]) ? ++i : i ;
-            if (arr[i] > temp) {
-                arr[start] = arr[i];
-                start = i;
-//                swap(arr, i, start); why swap goes run
-            } else {
-                break;
-            }
+            arr[j + 1] = temp;
         }
-        arr[start] = temp;
     }
 
 
@@ -98,13 +81,13 @@ public class HeapSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 100;
+        int maxSize = 10;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            heapSort(arr1);
+            InsertionSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -120,9 +103,13 @@ public class HeapSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        heapSort(arr);
+        InsertionSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
+
+
+
 }
+
