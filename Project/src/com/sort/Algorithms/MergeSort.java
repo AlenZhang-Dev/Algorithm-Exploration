@@ -1,30 +1,48 @@
-package package01;
+/**
+ * The MergeSort is combined with merge and sort.
+ * Use the dive and conquer strategy
+ */
+package com.sort.Algorithms;
+
+import com.sun.xml.internal.xsom.XSTerm;
 
 import java.util.Arrays;
 
-public class BianryInsertionSort {
-    //remember that the low position is where temp will in.
-    public static void BinaryInsertionSort(int arr[]) {
-        int i, j, low, high, mid, temp;
-        for (i = 1; i < arr.length; ++i) {
-            low = 0;
-            high = i - 1;
-            temp = arr[i];
-            while (low <= high) {
-                mid = low + (high - low) / 2;
-                if (arr[mid] > temp) {
-                    high = mid - 1;
-                } else {
-                    low = mid + 1;
-                }
-            }
-            //move
-            for (j = i - 1; j >= low; --j) {
-                arr[j + 1] = arr[j];
-            }
-            arr[low] = temp;
+public class MergeSort {
+    public static void mergeSort(int[] arr, int start, int end) {
+        if (start < end) {
+            int mid = start + (end - start) / 2;
+            mergeSort(arr, start, mid);
+            mergeSort(arr, mid + 1, end);
+            merge(arr, start, end);
         }
     }
+
+    public static void merge(int[] arr, int start, int end) {
+        int temp[] = new int[end - start + 1];
+        int mid = start + (end - start) / 2;
+        int i = start, j = mid + 1, index = 0;
+        while (i <= mid && j <= end) {
+            if (arr[i] <= arr[j]) {
+                temp[index++] = arr[i++];
+            } else {
+                temp[index++] = arr[j++];
+            }
+        }
+
+        while (i <= mid) {
+            temp[index++] = arr[i++];
+        }
+
+        while (j <= end) {
+            temp[index++] = arr[j++];
+        }
+
+        for (i = start; i <= end; i++) {
+            arr[i] = temp[i - start];
+        }
+    }
+
 
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
@@ -89,13 +107,13 @@ public class BianryInsertionSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 100;
+        int maxSize = 50;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            BinaryInsertionSort(arr1);
+            mergeSort(arr1, 0, arr1.length - 1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -111,12 +129,9 @@ public class BianryInsertionSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        BinaryInsertionSort(arr);
+        mergeSort(arr, 0, arr.length - 1);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
-
-
 }
-

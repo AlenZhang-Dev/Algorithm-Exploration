@@ -1,48 +1,37 @@
-package package01;
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class QuickSort {
-    public static void quickSort(int arr[], int low, int high) {
-        if (low < high) {
-            int Index = partition(arr, low, high);
-
-            quickSort(arr, low, Index - 1);
-            quickSort(arr, Index + 1, high);
-        }
-    }
-    //The goal of partition function: find the right position of pivot.
-    // Both partition functions is acceptable.
-    public static int partition(int arr[], int low, int high) {
-        int pivot = arr[high];
-        int i = low - 1;
-        //find every number which is lower than pivot, then put those to the low side.
-        for (int j = low; j < high; ++j) {
-            if (arr[j] < pivot) {
-                ++i;
-                swap(arr, i, j);
+public class BubbleSort {
+    public static void BubbleSort(int arr[]) {
+        //Easily improvement.
+        int i, j;
+        boolean flag = true;
+        for (i = 1; i < arr.length && flag; ++i) {
+            flag = false;
+            for (j = arr.length - 1; j > i - 1; --j) {
+                if (arr[j] < arr[j - 1])
+                    swap(arr, j, j - 1);
+                    flag = true;
             }
         }
-        //swap the last time
-        swap(arr, i + 1, high);
-        return i + 1;
+//        //Sorting from tail to head.
+//
+//        for (i = 1; i < arr.length; ++i) {
+//            for(j = 0; j < arr.length - i; ++j) {
+//                if (arr[j] > arr[j + 1]) {
+//                    swap (arr, j, j + 1);
+//                }
+//            }
+//        }
+//        //Sorting from head to tail
+//        for (i = 1; i < arr.length; ++i) {
+//            for (j = arr.length - 1; j >= i; --j) {
+//                if (arr[j] < arr[j - 1])
+//                    swap(arr, j, j - 1);
+//            }
+//        }
     }
-
-    public static int moveBothPartition(int arr[], int low, int high) {
-        int pivot = arr[high];
-        while (low < high) {
-            while (low < high && arr[low] <= pivot) {
-                ++low;
-            }
-            swap(arr, low, high);
-            while (low < high && arr[high] >= pivot) {
-                --high;
-            }
-            swap(arr, low, high);
-        }
-        return low;
-    }
-
 
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
@@ -113,7 +102,7 @@ public class QuickSort {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            quickSort(arr1, 0, arr1.length - 1);
+            BubbleSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -129,9 +118,10 @@ public class QuickSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        quickSort(arr, 0, arr.length - 1);
+        BubbleSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
 }
+

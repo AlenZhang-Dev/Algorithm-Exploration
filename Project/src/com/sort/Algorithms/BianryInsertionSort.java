@@ -1,23 +1,28 @@
-/**
- * Future work:
- * 1. calculate the time during sorting.[Done. 3.18]
- */
-package package01;
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class SelectionSort {
-    public static void selectionSort(int[] arr) {
-        if (arr == null || arr.length < 2) {
-            return;
-        }
-        //Select minimise number of the arr during every travel
-        for (int i = 0; i < arr.length - 1; i++) {
-            int minIndex = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                minIndex = arr[j] < arr[minIndex] ? j : minIndex;
+public class BianryInsertionSort {
+    //remember that the low position is where temp will in.
+    public static void BinaryInsertionSort(int arr[]) {
+        int i, j, low, high, mid, temp;
+        for (i = 1; i < arr.length; ++i) {
+            low = 0;
+            high = i - 1;
+            temp = arr[i];
+            while (low <= high) {
+                mid = low + (high - low) / 2;
+                if (arr[mid] > temp) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
             }
-            swap(arr, i, minIndex);
+            //move
+            for (j = i - 1; j >= low; --j) {
+                arr[j + 1] = arr[j];
+            }
+            arr[low] = temp;
         }
     }
 
@@ -25,13 +30,6 @@ public class SelectionSort {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
-    }
-
-    // report: when use bitwise operation to swap the number, those numbers can't point to the same memory address.
-    public static void swap_bitwise(int[] arr, int i, int j) {
-        arr[i] = arr[i] ^ arr[j];
-        arr[j] = arr[i] ^ arr[j];
-        arr[i] = arr[i] ^ arr[j];
     }
 
     public static void comparator(int[] arr) {
@@ -91,13 +89,13 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 200;
+        int maxSize = 100;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            selectionSort(arr1);
+            BinaryInsertionSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -113,10 +111,12 @@ public class SelectionSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        selectionSort(arr);
+        BinaryInsertionSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
 
+
 }
+

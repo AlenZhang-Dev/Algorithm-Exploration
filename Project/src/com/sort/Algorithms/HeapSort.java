@@ -1,36 +1,71 @@
-package package01;
+package com.sort.Algorithms;
 
 import java.util.Arrays;
 
-public class BubbleSort {
-    public static void BubbleSort(int arr[]) {
-        //Easily improvement.
-        int i, j;
-        boolean flag = true;
-        for (i = 1; i < arr.length && flag; ++i) {
-            flag = false;
-            for (j = arr.length - 1; j > i - 1; --j) {
-                if (arr[j] < arr[j - 1])
-                    swap(arr, j, j - 1);
-                    flag = true;
+public class HeapSort {
+    /**
+     * build heap
+     * @param arr the sorting array
+     */
+    public static void heapSort(int arr[]) {
+        //build a maxheap
+        for (int i = arr.length / 2 - 1; i >= 0; --i) {
+            maxHeapify(arr, i, arr.length);
+        }
+        //where heapsort happened
+        for (int j = arr.length - 1; j > 0; --j) {
+            swap(arr, 0, j);
+            maxHeapify(arr, 0, j);
+        }
+    }
+
+    /**
+     * maintain heap, iteration.
+     * @param arr
+     * @param start
+     * @param end
+     */
+    public static void maxHeapify(int arr[], int start, int end) {
+        int temp = arr[start];
+        for (int i = start * 2 + 1; i < end; i = i * 2 + 1) {
+            //find largest among root, left child and right child
+            if (i + 1 < end && arr[i] < arr[i + 1]) {
+                i++;
+            }
+            //swap and continue heapifying if root isn't largest
+            if (arr[i] > temp) {
+                swap(arr, start, i);
+                start = i;
+                temp = arr[i];
+            } else {
+                break;
             }
         }
-//        //Sorting from tail to head.
-//
-//        for (i = 1; i < arr.length; ++i) {
-//            for(j = 0; j < arr.length - i; ++j) {
-//                if (arr[j] > arr[j + 1]) {
-//                    swap (arr, j, j + 1);
-//                }
-//            }
-//        }
-//        //Sorting from head to tail
-//        for (i = 1; i < arr.length; ++i) {
-//            for (j = arr.length - 1; j >= i; --j) {
-//                if (arr[j] < arr[j - 1])
-//                    swap(arr, j, j - 1);
-//            }
-//        }
+    }
+
+    /**
+     * maintain heap, recursion.
+     * @param arr
+     * @param start
+     * @param end
+     */
+    public static void maxHeapifyRecursion(int arr[], int start, int end) {
+        int temp = arr[start];
+        int rightChild = start * 2 + 1;
+        int leftChild = rightChild + 1;
+        int maxIndex = rightChild;
+        //find largest among root, left child and right child
+        if (leftChild > end){
+            return ;
+        }
+        if (leftChild < end && arr[rightChild] < arr[leftChild]) {
+            maxIndex = leftChild;
+        }
+        //swap and continue heapifying if root isn't largest
+        if (arr[maxIndex] > temp) {
+            swap(arr, maxIndex, start);
+            maxHeapifyRecursion(arr, maxIndex, end);
+        }
     }
 
     public static void swap(int[] arr, int i, int j) {
@@ -96,13 +131,13 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 100;
+        int maxSize = 200;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            BubbleSort(arr1);
+            heapSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -118,10 +153,9 @@ public class BubbleSort {
         printArray(arr);
         System.out.println("After sorting");
         final long startTime = System.nanoTime();
-        BubbleSort(arr);
+        heapSort(arr);
         final long duration = System.nanoTime() - startTime;
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
 }
-
