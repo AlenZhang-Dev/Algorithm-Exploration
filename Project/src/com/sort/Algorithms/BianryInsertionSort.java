@@ -116,7 +116,5 @@ public class BianryInsertionSort {
         printArray(arr);
         System.out.println("Algorithms total run time : " + duration + "ms");
     }
-
-
 }
 
