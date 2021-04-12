@@ -12,6 +12,7 @@ Author:  Alen Zhang
 | 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |  |
 | 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |  |
 | 11 |[Container With Most Water][11]  |[![c]][11sc]&nbsp;&nbsp;[![r]][11sr]  |[Medium][m] |  |
+| 15 |[3Sum][15]  | ![][j] |[Medium][m] |  |
 | 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |  |
 | 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |  |
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |  |
@@ -201,6 +202,7 @@ Author:  Alen Zhang
 [7]:./Easy/0007-Reverse%20Integer/README.md#7-reverse-Integer
 [9]:./Easy/0009-Palindrome%20Number/README.md#9-palindrome-number
 [11]:./Medium/0011-Container%20With%20Most%20Water/README.md#11-container-with-most-water
+[15]:./Medium/0015-3%20Sum/README.md
 [20]:./Easy/0020-Valid%20Parentheses/README.md#20-valid-parentheses
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
