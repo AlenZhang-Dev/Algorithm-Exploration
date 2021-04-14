@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libraries">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../accessaries/algs4/libraries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../accessaries/algs4/libraries" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../accessaries/algs4/libraries" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../accessaries/algs4/libraries" recursive="false" type="SOURCES" />
+  </library>
+</component>
