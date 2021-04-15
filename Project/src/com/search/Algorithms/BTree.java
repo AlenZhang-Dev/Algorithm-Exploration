@@ -1,3 +1,11 @@
+/**
+ * The problem is that when internal node has M - 1 keys, the algorithm will split it.
+ *
+ * Future implementation:
+ * 1. Deletion in B-Tree.
+ */
+
+
 package com.search.Algorithms;
 
 import com.search.Algorithms.interfaces.TreeInterface;
@@ -10,7 +18,7 @@ import java.util.Deque;
 
 public class BTree<Key extends Comparable<Key>, Value> {
     //Set the order of B-Tree.
-    private static final int M = 4;
+    private static final int M = 5;
 
     private Node root;
     private int height; //The height of B-Tree.
@@ -154,6 +162,7 @@ public class BTree<Key extends Comparable<Key>, Value> {
             for (j = 0; j < h.childNum; j++) {
                 if ((j + 1 == h.childNum) || less(key, h.children[j + 1].key)) {
                     //Node u is null means insert successfully at the lower level. Otherwise, Node u is the half split of the node h.
+                    //In insert function j = j, after that j++
                     Node u = insert(h.children[j++].next, key, val, height - 1);
                     //insert successfully and without any other movements.
                     if (u == null)
@@ -191,6 +200,12 @@ public class BTree<Key extends Comparable<Key>, Value> {
         return t;
     }
 
+
+    public void delete (Key key) {
+
+    }
+
+
     public String toString() {
         return toString(root, height, "") + "\n";
     }
@@ -213,6 +228,7 @@ public class BTree<Key extends Comparable<Key>, Value> {
         return s.toString();
     }
 
+
     //Comparison functions - make Comparable instead of key to avoid casts.
     private boolean less(Comparable k1, Comparable k2) {
         return k1.compareTo(k2) < 0;
@@ -223,7 +239,7 @@ public class BTree<Key extends Comparable<Key>, Value> {
     }
 
     public static void main(String[] args) {
-        com.search.Algorithms.BTree<String, String> st = new com.search.Algorithms.BTree<String, String>();
+        BTree<String, String> st = new BTree<String, String>();
 
         st.put("www.cs.princeton.edu", "128.112.136.12");
         st.put("www.cs.princeton.edu", "128.112.136.11");
@@ -244,19 +260,6 @@ public class BTree<Key extends Comparable<Key>, Value> {
         st.put("www.yahoo.com", "216.109.118.65");
         st.put("www.baidu.com", "216.139.138.61");
 
-//        st.put("5", "128.112.136.12");
-//        st.put("3", "128.112.136.11");
-//        st.put("21", "128.112.128.15");
-//        st.put("9", "130.132.143.21");
-//        st.put("1", "209.052.165.60");
-//        st.put("13", "17.112.152.32");
-//        st.put("2", "207.171.182.16");
-//        st.put("7", "66.135.192.87");
-//        st.put("10", "64.236.16.20");
-//        st.put("12", "216.239.41.99");
-//        st.put("4", "199.239.136.200");
-//        st.put("8", "207.126.99.140");
-
 
         StdOut.println("cs.princeton.edu:  " + st.get("www.cs.princeton.edu"));
         StdOut.println("hardvardsucks.com: " + st.get("www.harvardsucks.com"));
@@ -270,5 +273,30 @@ public class BTree<Key extends Comparable<Key>, Value> {
         StdOut.println("height:  " + st.height());
         StdOut.println(st);
         StdOut.println();
+
+        BTree<Integer, Integer> nt = new BTree<Integer, Integer>();
+        nt.put(10, 10);
+        nt.put(20, 20);
+        nt.put(30, 30);
+        nt.put(40, 40);
+        nt.put(50, 50);
+        nt.put(60, 60);
+        nt.put(70, 70);
+        nt.put(80, 80);
+        nt.put(90, 90);
+        nt.put(100, 100);
+        nt.put(110, 110);
+        nt.put(120, 90);
+        nt.put(130, 100);
+        nt.put(140, 110);
+        nt.put(150, 90);
+        nt.put(160, 100);
+        nt.put(170, 110);
+        nt.put(180, 90);
+        nt.put(190, 100);
+        nt.put(200, 110);
+        StdOut.println("size:    " + nt.size());
+        StdOut.println("height:  " + nt.height());
+        StdOut.println(nt);
     }
 }
