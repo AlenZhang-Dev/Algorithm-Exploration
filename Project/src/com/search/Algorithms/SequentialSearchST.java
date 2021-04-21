@@ -61,9 +61,9 @@ public class SequentialSearchST<Key, Value> {
             delete(key);
             return;
         }
-        //Coverage
+        //Hit and coverage
         for (Node node = head; node != null; node = node.next) {
-            if(key.equals(node.key)){
+            if (key.equals(node.key)) {
                 node.val = val;
                 return;
             }
@@ -91,9 +91,10 @@ public class SequentialSearchST<Key, Value> {
     /**
      * Return all keys in the symbol table as an Iterable.
      * FIFO
+     *
      * @return
      */
-    public Iterable<Key> keys()  {
+    public Iterable<Key> keys() {
         Queue<Key> queue = new Queue<Key>();
         for (Node x = head; x != null; x = x.next)
             queue.enqueue(x.key);
