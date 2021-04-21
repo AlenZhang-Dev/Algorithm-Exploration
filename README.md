@@ -1,5 +1,16 @@
 # Algorithms Exploration
 
+## Algorithms & Data Structure [Java]
+
+| #    | Tree | Graph | Search                                      | Sort                                 |
+| ---- | ---- | ----- | ------------------------------------------- | ------------------------------------ |
+|      |      |       | :ballot_box_with_check:BinarySearchTree     | :ballot_box_with_check:BubbleSort    |
+|      |      |       | :ballot_box_with_check:AVLTree              | :ballot_box_with_check:SelectionSort |
+|      |      |       | :x:Red-black Tree                           | :ballot_box_with_check:InsertionSort |
+|      |      |       | :ballot_box_with_check:B-Tree               | :ballot_box_with_check:HeapSort      |
+|      |      |       | :ballot_box_with_check:HashSeperateChaining | :ballot_box_with_check:ShellSort     |
+|      |      |       | :ballot_box_with_check:HashLinearProbing    | :ballot_box_with_check:MergeSort     |
+|      |      |       |                                             | :ballot_box_with_check:QuickSort     |
 ## Leetcode 
 
 Author:  Alen Zhang

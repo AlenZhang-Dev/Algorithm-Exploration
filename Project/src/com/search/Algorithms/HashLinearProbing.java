@@ -59,6 +59,12 @@ public class HashLinearProbing<Key, Value> {
         M = tempArray.M;
     }
 
+    /**
+     * Put the key and val to the table.
+     *
+     * @param key
+     * @param val
+     */
     public void put(Key key, Value val) {
         if (key == null) throw new IllegalArgumentException("key is null");
 
@@ -71,6 +77,7 @@ public class HashLinearProbing<Key, Value> {
         if (N > M / 2)
             resize(2 * M);
         int i;
+
         //Coverage when exists. find null to insert
         for (i = hash(key); keys[i] != null; i = (i + 1) % M) {
             if (keys[i].equals(key)) {
@@ -97,6 +104,11 @@ public class HashLinearProbing<Key, Value> {
         return null;
     }
 
+    /**
+     * Delete the values associated with the key.
+     *
+     * @param key
+     */
     public void delete(Key key) {
         if (key == null) throw new IllegalArgumentException("get() is null");
         if (!contains(key))
