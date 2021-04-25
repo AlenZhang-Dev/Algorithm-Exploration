@@ -1,5 +1,6 @@
 package com.search.Algorithms;
 
+import com.sun.deploy.util.BlackList;
 import edu.princeton.cs.algs4.RedBlackBST;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -35,6 +36,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
     /**
      * ture when node is red, otherwise is false;
      *
+     * 
      * @param x
      * @return
      */
@@ -75,7 +77,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
     }
 
     private Value get(Node x, Key key) {
-        while(x != null) {
+        while (x != null) {
             int cmp = key.compareTo(x.key);
             if (cmp == 0)
                 return x.val;
@@ -85,18 +87,19 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
     }
 
 
-
-    public void put (Key key, Value val) {
+    public void put(Key key, Value val) {
         if (key == null) throw new IllegalArgumentException("key is null");
         if (val == null) {
-
+            //delete key
         }
 
+        root = put(root, key, val);
+        root.color = BLACK;
 
     }
 
     // insert the key-value pair in the subtree rooted at h
-    private Node put (Node h, Key key, Value val) {
+    private Node put(Node h, Key key, Value val) {
         if (h == null)
             return new Node(key, val, RED, 1);
         //find the place to insert.
@@ -104,12 +107,12 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
         if (cmp < 0)
             h.left = put(h.left, key, val);
         else if (cmp > 0)
-            h.right = put(h.right, key,val);
+            h.right = put(h.right, key, val);
         else
             h.val = val;
 
         //rotation and flipColors
-        if(isRed(h.right) && !isRed(h.left))
+        if (isRed(h.right) && !isRed(h.left))
             h = rotateLeft(h);
         if (isRed(h.right) && isRed(h.left.left))
             h = rotateRight(h);
@@ -120,8 +123,30 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
         return h;
     }
 
+    public void delete(Key key) {
+        if (key == null) throw new IllegalArgumentException("key is null");
+        if (!contains(key))
+            return;
+        // both children of root are black, set root color to red
 
-    private Node rotateRight (Node h) {
+
+    }
+
+    private Node delete(Node h, Key key) {
+        //find the delete place
+        if (key.compareTo(h.key) < 0) {
+
+            h.left = delete(h.left, key);
+        } else {
+
+        }
+
+        //rebalance after delete
+        return balance(h);
+    }
+
+
+    private Node rotateRight(Node h) {
         //rotate
         Node x = h.left;
         h.left = x.right;
@@ -135,7 +160,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
         return x;
     }
 
-    private Node rotateLeft (Node h) {
+    private Node rotateLeft(Node h) {
         //rotate
         Node x = h.right;
         h.right = x.left;
@@ -148,11 +173,57 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
         h.size = size(h.left) + size(h.right) + 1;
         return x;
     }
+
     // reverse the color of node and its parent.
-    private void flipColors (Node h) {
+    private void flipColors(Node h) {
         h.color = !h.color;
         h.left.color = !h.left.color;
         h.right.color = !h.right.color;
+    }
+
+
+    // Assuming that h is red and both h.left and h.left.left are black,
+    // make h.left or one of its children red.
+    private Node moveRedLeft(Node h) {
+        flipColors(h);
+        if (isRed(h.right.left)) {
+            h.right = rotateRight(h.right);
+            h = rotateLeft(h);
+            flipColors(h);
+        }
+        return h;
+    }
+
+
+    // Assuming that h is red and both h.right and h.right.left are black, make
+    // h.right or one of it's children red.
+    private Node moveRedRight(Node h) {
+        flipColors(h);
+        if (isRed(h.left.left)) {
+            h = rotateLeft(h);
+            flipColors(h);
+        }
+        return h;
+    }
+
+    private Node balance(Node h) {
+        if (isRed(h.right) && !isRed(h.left)) h = rotateLeft(h);
+        if (isRed(h.left) && isRed(h.left.left)) h = rotateRight(h);
+        if (isRed(h.left) && isRed(h.right)) flipColors(h);
+
+        h.size = size(h.left) + size(h.right) + 1;
+        return h;
+    }
+
+
+    /**
+     * Check whether the tree contains the key.
+     *
+     * @param key
+     * @return
+     */
+    public boolean contains(Key key) {
+        return get(key) != null;
     }
 
     public static void main(String[] args) {
@@ -166,6 +237,5 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
             StdOut.println(s + " " + st.get(s));
         StdOut.println();
     }
-
 
 }
