@@ -36,7 +36,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
     /**
      * ture when node is red, otherwise is false;
      *
-     * 
+     *
      * @param x
      * @return
      */
