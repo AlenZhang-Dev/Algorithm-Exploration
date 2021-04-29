@@ -62,7 +62,7 @@ Author:  Alen Zhang
 | 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |  |
 | 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
 | 168 |[Excel Sheet column Title][168] |![][j]|[Easy][e] |  |
-| 169 |[Majority Element][169] |[![c]][169sc] |[Easy][e] |  |
+| 169 |[Majority Element][169] |![c++][] ![c][] ![j][] |[Easy][e] |  |
 | 171 |[Excel Sheet Column Number][171] |![][j] ![][p]|[Easy][e] |  |
 | 172 |[Factorial Trailing Zeroes][172] |![][c] ![][j] ![][p]|[Easy][e] |  |
 | 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
