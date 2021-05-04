@@ -48,13 +48,13 @@ Output: 2.00000
 - `1 <= m + n <= 2000`
 - `-106 <= nums1[i], nums2[i] <= 106`
 
- 
-
 **Follow up:** The overall run time complexity should be `O(log (m+n))`.
 
 ## Solutions (Java)
 
 **Array**
+
+`T(n) = O(log(m + n)) , S(n) = O(log(m + n))`
 
 ```java
 class Solution {
@@ -75,6 +75,66 @@ class Solution {
             return extendNums[newLength / 2] / 1.0;
         } 
         return (extendNums[newLength / 2] + extendNums[newLength / 2 - 1]) / 2.0;
+    }
+}
+```
+
+**Two pointers**
+
+```java
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int l1 = nums1.length;
+        int l2 = nums2.length;
+        int len = l1 + l2;
+        int pre = -1, cur = -1;
+        int point1 = 0, point2 = 0;
+        for(int i = 0; i <= len / 2; i++) {
+            pre = cur;
+            //point >= l2 must put ahead. otherwise it will cause out of bound exception
+            if(point2 >= l2 || (point1 < l1 && nums1[point1] < nums2[point2])){
+                cur = nums1[point1++];
+            }else{
+                cur = nums2[point2++];
+            }
+        }
+        return (len % 2 == 0) ? (pre + cur) / 2.0 : cur;
+    }
+}
+```
+
+**Dichotomy**
+
+```java
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int l1 = nums1.length;
+        int l2 = nums2.length;
+        int pre = (l1 + l2 + 1) / 2;
+        int cur = (l1 + l2 + 2) / 2;
+        return (findKthNumber(nums1, 0, l1 - 1, nums2, 0, l2 - 1, pre) + findKthNumber(nums1, 0, l1 - 1, nums2, 0, l2 - 1, cur)) * 0.5;
+    }
+
+    private int findKthNumber(int[] nums1, int s1, int e1, int[] nums2, int s2, int e2, int k){
+        int l1 = e1 - s1 + 1;
+        int l2 = e2 - s2 + 1;
+        //make sure l1 is always larger than l2.
+        if(l1 > l2)
+            return findKthNumber(nums2, s2, e2, nums1, s1, e1, k);
+        if(l1 == 0)
+            return nums2[s2 + k - 1];
+        
+        if(k == 1)
+            return Math.min(nums1[s1], nums2[s2]);
+
+        int i = s1 + Math.min(l1, k / 2) - 1;
+        int j = s2 + Math.min(l2, k / 2) - 1;
+
+        if(nums1[i] > nums2[j]){
+            return findKthNumber(nums1, s1, e1, nums2, j + 1, e2, k - (j - s2 + 1));    
+        }else{
+            return findKthNumber(nums1, i + 1, e1, nums2, s2, e2, k - (i - s1 + 1));
+        }
     }
 }
 ```
