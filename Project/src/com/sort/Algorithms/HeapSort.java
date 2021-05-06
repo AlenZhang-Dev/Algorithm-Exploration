@@ -4,30 +4,44 @@ import java.util.Arrays;
 
 public class HeapSort {
     /**
-     * build heap
+     * build heap，the heap start from the index 0.
      * @param arr the sorting array
      */
+//    public static void heapSort(int arr[]) {
+//        //build a maxheap, from first non-leaf node.
+//        for (int i = arr.length / 2 - 1; i >= 0; --i) {
+//            maxHeapify(arr, i, arr.length);
+//        }
+//        //where heapsort happened
+//        for (int j = arr.length - 1; j > 0; --j) {
+//            swap(arr, 0, j);
+//            maxHeapify(arr, 0, j);
+//        }
+//    }
+
     public static void heapSort(int arr[]) {
-        //build a maxheap
-        for (int i = arr.length / 2 - 1; i >= 0; --i) {
+        int i = parent(arr.length);
+        while(i >= 0) {
             maxHeapify(arr, i, arr.length);
+            --i;
         }
-        //where heapsort happened
-        for (int j = arr.length - 1; j > 0; --j) {
-            swap(arr, 0, j);
+        int j = arr.length - 1;
+        while(j > 0) {
+            swap(arr,0, j);
             maxHeapify(arr, 0, j);
+            --j;
         }
     }
 
     /**
-     * maintain heap, iteration.
+     * Assume subtree start from start, maintain the arr[start] element to the right place.[sink]
      * @param arr
      * @param start
      * @param end
      */
     public static void maxHeapify(int arr[], int start, int end) {
         int temp = arr[start];
-        for (int i = start * 2 + 1; i < end; i = i * 2 + 1) {
+        for (int i = leftChild(start); i < end; i = i * 2 + 1) {
             //find largest among root, left child and right child
             if (i + 1 < end && arr[i] < arr[i + 1]) {
                 i++;
@@ -50,22 +64,36 @@ public class HeapSort {
      * @param end
      */
     public static void maxHeapifyRecursion(int arr[], int start, int end) {
+        //save the current root in case the child is bigger than root.
         int temp = arr[start];
-        int rightChild = start * 2 + 1;
-        int leftChild = rightChild + 1;
-        int maxIndex = rightChild;
-        //find largest among root, left child and right child
-        if (leftChild > end){
-            return ;
+        int left = leftChild(start);
+        int right = rightChild(start);
+        int max = left;
+        //if one's right child is bigger than end, definatly his left child is invalid
+        if(right > end) {
+            return;
         }
-        if (leftChild < end && arr[rightChild] < arr[leftChild]) {
-            maxIndex = leftChild;
+        //if one's right child is valid.
+        if(right < end && arr[right] > arr[left]) {
+            max = right;
         }
-        //swap and continue heapifying if root isn't largest
-        if (arr[maxIndex] > temp) {
-            swap(arr, maxIndex, start);
-            maxHeapifyRecursion(arr, maxIndex, end);
+        if(arr[max] > temp){
+            swap(arr, max, start);
+            maxHeapifyRecursion(arr, max, end);
         }
+    }
+
+    //The array start from index 0, there are some different with index start from 1.
+    private static int parent(int i){
+        return (i / 2 - 1);
+    }
+
+    private static int leftChild(int i){
+        return (i * 2 + 1);
+    }
+
+    private static int rightChild(int i) {
+        return (i * 2 + 2);
     }
 
     public static void swap(int[] arr, int i, int j) {
