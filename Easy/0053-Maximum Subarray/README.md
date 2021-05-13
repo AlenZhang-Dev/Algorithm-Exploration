@@ -14,8 +14,6 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 If you have figured out the O(*n*) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-
-
 ## Solutions (C)
 
 ### 1. Greedy Algorithm
@@ -36,8 +34,6 @@ int maxSubArray(int* nums, int numsSize){
 
 > Runtime: **4 ms** Memory Usage: **7.5 MB**
 
-
-
 ### 2. Kadane's Algorithm
 
 ```c
@@ -55,8 +51,6 @@ int maxSubArray(int* nums, int numsSize){
 ```
 
 > Runtime: **4 ms** Memory Usage: **7.5 MB**
-
-
 
 ### 3. Ergodic Inference
 
@@ -79,23 +73,23 @@ int maxSubArray(int* nums, int numsSize){
 
 > Runtime: **292 ms** Memory Usage: **7.5 MB**
 
-
-
 ## Solutions (Java)
 
 ### 1. Greedy Algorithm
 
 ```java
 class Solution {
-  public int maxSubArray(int[] nums) {
-    int n = nums.length;
-    int cur_max = nums[0], max = nums[0];
-    for(int i = 1; i < n; ++i) {
-      cur_max = Math.max(nums[i], cur_max + nums[i]);
-      max = Math.max(max, cur_max);
+    public int maxSubArray(int[] nums) {
+        int res = nums[0], sum = 0;
+        for(int num : nums) {
+        	sum += num;
+        	if(sum > res)
+            	res = sum;
+        	if(sum < 0)
+            	sum = 0;
+      }
+      return res;
     }
-    return max;
-  }
 }
 ```
 

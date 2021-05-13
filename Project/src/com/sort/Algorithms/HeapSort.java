@@ -20,16 +20,23 @@ public class HeapSort {
 //    }
 
     public static void heapSort(int arr[]) {
-        int i = parent(arr.length);
-        while(i >= 0) {
-            maxHeapify(arr, i, arr.length);
-            --i;
-        }
+//        int i = parent(arr.length);
+//        while(i >= 0) {
+//            maxHeapify(arr, i, arr.length);
+//            --i;
+//        }
+        buildMaxHeap(arr);
         int j = arr.length - 1;
         while(j > 0) {
             swap(arr,0, j);
-            maxHeapify(arr, 0, j);
-            --j;
+            maxHeapify(arr, 0, j--);
+        }
+    }
+
+    public static void buildMaxHeap(int arr[]) {
+        int i = parent(arr.length);
+        while(i >= 0) {
+            maxHeapify(arr, i--, arr.length);
         }
     }
 

@@ -2,15 +2,16 @@
 
 ## Algorithms & Data Structure [Java]
 
-| #    | Tree | Graph | Search                                      | Sort                                 |
-| ---- | ---- | ----- | ------------------------------------------- | ------------------------------------ |
-|      |      |       | :ballot_box_with_check:BinarySearchTree     | :ballot_box_with_check:BubbleSort    |
-|      |      |       | :ballot_box_with_check:AVLTree              | :ballot_box_with_check:SelectionSort |
-|      |      |       | :x:Red-black Tree                           | :ballot_box_with_check:InsertionSort |
-|      |      |       | :ballot_box_with_check:B-Tree               | :ballot_box_with_check:HeapSort      |
-|      |      |       | :ballot_box_with_check:HashSeperateChaining | :ballot_box_with_check:ShellSort     |
-|      |      |       | :ballot_box_with_check:HashLinearProbing    | :ballot_box_with_check:MergeSort     |
-|      |      |       |                                             | :ballot_box_with_check:QuickSort     |
+| #    | Tree | Graph | Search                                      | Sort                                   |
+| ---- | ---- | ----- | ------------------------------------------- | -------------------------------------- |
+|      |      |       | :ballot_box_with_check:BinarySearchTree     | :ballot_box_with_check:BubbleSort      |
+|      |      |       | :ballot_box_with_check:AVLTree              | :ballot_box_with_check:SelectionSort   |
+|      |      |       | :x:Red-black Tree                           | :ballot_box_with_check:InsertionSort   |
+|      |      |       | :ballot_box_with_check:B-Tree               | :ballot_box_with_check:HeapSort        |
+|      |      |       | :ballot_box_with_check:HashSeperateChaining | :ballot_box_with_check:ShellSort       |
+|      |      |       | :ballot_box_with_check:HashLinearProbing    | :ballot_box_with_check:MergeSort       |
+|      |      |       |                                             | :ballot_box_with_check:QuickSort<br /> |
+|      |      |       |                                             | :ballot_box_with_check: Priority Queue​ |
 ## Leetcode 
 
 Author:  Alen Zhang
@@ -26,6 +27,7 @@ Author:  Alen Zhang
 | 15 |[3Sum][15]  | ![][j] |[Medium][m] |  |
 | 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |  |
 | 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |  |
+| 23 |[Merge k Sorted Lists][23] |![][j]  |[Hard][h] |  |
 | 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |  |
 | 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |  |
 | 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |  |
@@ -216,6 +218,7 @@ Author:  Alen Zhang
 [15]:./Medium/0015-3%20Sum/README.md
 [20]:./Easy/0020-Valid%20Parentheses/README.md#20-valid-parentheses
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
+[23]:./Hard/0023-Merge%20k%20Sorted%20Lists/README.md#23-merge-k-sorted-lists
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
 [28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr

@@ -6,8 +6,7 @@ public class QuickSort {
     public static void quickSort(int arr[], int low, int high) {
         if (low < high) {
             int Index = partition(arr, low, high);
-
-            quickSort(arr, low, Index - 1);
+            quickSort(arr, low, Index - 1) ;
             quickSort(arr, Index + 1, high);
         }
     }
