@@ -16,22 +16,6 @@ Output:
 [5,6]
 ```
 
-
-
-中文题解：
-
->【笔记】将所有正数作为数组下标，置对应数组值为负值。那么，仍为正数的位置即为（未出现过）消失的数字。
->
->举个例子：
->
->原始数组：[4,3,2,7,8,2,3,1]
->
->重置后为：[-4,-3,-2,-7,8,2,-3,-1]
->
->结论：[8,2] 分别对应的index为[5,6]（消失的数字）
-
-
-
 ## Solutions (Java)
 
 ### 1. Brute Force
@@ -39,20 +23,39 @@ Output:
 ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        int n = nums.length;
-        List<Integer> array = new ArrayList<>();
-        for(int i = 0; i < nums.length; i++){
-           nums[(nums[i] - 1) % n] += n;
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = -nums[i];
         }
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] <= n)
-                array.add(i + 1);
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[Math.abs(nums[i]) - 1] < 0)
+                nums[Math.abs(nums[i]) - 1] = - nums[Math.abs(nums[i]) - 1];
         }
-        return array;
+        for (int i = 0; i < nums.length; i++){
+            if(nums[i] < 0)
+                list.add(i + 1);
+        }
+        return list;
     }
 }
 ```
 
+### 2. In-place
 
-
+```java
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {   
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[Math.abs(nums[i]) - 1] > 0)
+                nums[Math.abs(nums[i]) - 1] = -nums[Math.abs(nums[i]) - 1];
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] > 0)
+                list.add(i + 1);
+        }
+        return list;
+    }
+}
+```
 
