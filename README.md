@@ -218,10 +218,7 @@ Author:  Alen Zhang
 [15]:./Medium/0015-3%20Sum/README.md
 [20]:./Easy/0020-Valid%20Parentheses/README.md#20-valid-parentheses
 [21]:./Easy/0021-Merge%20Two%20Sorted%20Lists/README.md#21-merge-two-sorted-lists
-<<<<<<< HEAD
 [23]:./Hard/0023-Merge%20k%20Sorted%20Lists/README.md#23-merge-k-sorted-lists
-=======
->>>>>>> ceb06560f770900688b1044a1404d4c602ac3ac0
 [26]:./Easy/0026-Remove%20Duplicates%20from%20Sorted%20Array/README.md#26-remove-duplicates-from-sorted-array
 [27]:./Easy/0027-Remove%20Element/README.md#27-remove-element
 [28]:./Easy/0028-Implement%20strStr()/README.md#28-implement-strstr
