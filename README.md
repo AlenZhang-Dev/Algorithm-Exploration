@@ -2,201 +2,199 @@
 
 ## Algorithms & Data Structure [Java]
 
-| #    | Tree | Graph | Search                                      | Sort                                   |
-| ---- | ---- | ----- | ------------------------------------------- | -------------------------------------- |
-|      |      |       | :ballot_box_with_check:BinarySearchTree     | :ballot_box_with_check:BubbleSort      |
-|      |      |       | :ballot_box_with_check:AVLTree              | :ballot_box_with_check:SelectionSort   |
-|      |      |       | :x:Red-black Tree                           | :ballot_box_with_check:InsertionSort   |
-|      |      |       | :ballot_box_with_check:B-Tree               | :ballot_box_with_check:HeapSort        |
-|      |      |       | :ballot_box_with_check:HashSeperateChaining | :ballot_box_with_check:ShellSort       |
-|      |      |       | :ballot_box_with_check:HashLinearProbing    | :ballot_box_with_check:MergeSort       |
-|      |      |       |                                             | :ballot_box_with_check:QuickSort<br /> |
-|      |      |       |                                             | :ballot_box_with_check: Priority Queue​ |
-## Leetcode 
+| #   | Tree | Graph | Search                                      | Sort                                    |
+| --- | ---- | ----- | ------------------------------------------- | --------------------------------------- |
+|     |      |       | :ballot_box_with_check:BinarySearchTree     | :ballot_box_with_check:BubbleSort       |
+|     |      |       | :ballot_box_with_check:AVLTree              | :ballot_box_with_check:SelectionSort    |
+|     |      |       | :x:Red-black Tree                           | :ballot_box_with_check:InsertionSort    |
+|     |      |       | :ballot_box_with_check:B-Tree               | :ballot_box_with_check:HeapSort         |
+|     |      |       | :ballot_box_with_check:HashSeperateChaining | :ballot_box_with_check:ShellSort        |
+|     |      |       | :ballot_box_with_check:HashLinearProbing    | :ballot_box_with_check:MergeSort        |
+|     |      |       |                                             | :ballot_box_with_check:QuickSort<br />  |
+|     |      |       |                                             | :ballot_box_with_check: Priority Queue​ |
+
+## Leetcode
 
 Author:  Alen Zhang
 
 * Rust Ruby Python Solutions  => [fruit-in/Leetcode](https://github.com/fruit-in/leetcode)
 
-| #    | Title                | Solutions                                        | Difficulty        | Tags |
-| ----| ------------      | ----------------------------------          | ----------        | ---|
-| 1    | [Two Sum][1] |[![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr] | [Easy][e]         |      |
-| 7 | [Reverse Integer][7] | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp] |[Easy][e]  |  |
-| 9 |[Palindrome Number][9]  |[![c]][9sc]&nbsp;&nbsp;[![p]][9sp]  |[Easy][e] |  |
-| 11 |[Container With Most Water][11]  |[![c]][11sc]&nbsp;&nbsp;[![r]][11sr]  |[Medium][m] |  |
-| 15 |[3Sum][15]  | ![][j] |[Medium][m] |  |
-| 20 |[Valid Parentheses][20]  |[![c]][20sc]  |[Easy][e] |  |
-| 21 |[Merge Two Sorted Lists][21] |[![c]][21sc]  |[Easy][e] |  |
-| 23 |[Merge k Sorted Lists][23] |![][j]  |[Hard][h] |  |
-| 26 |[Remove Duplicates from Sorted Array][26] |[![c]][26sc]  |[Easy][e] |  |
-| 27 |[Remove Element][27] |[![c]][27sc]  |[Easy][e] |  |
-| 28 |[Implement strStr()][28] |[![c]][28sc]  |[Easy][e] |  |
-| 34 |[Find First and Last Position of Element in Sorted Array][34] |[![j]][34sj]  |[Medium][m] |  |
-| 35 |[Search Insert Position][35] |[![c]][35sc]  |[Easy][e] |  |
-| 38 |[Count and Say][38] |[![c]][38sc]  |[Easy][e] |  |
-| 53 |[Maximum Subarray][53] |[![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]  |[Easy][e] |  |
-| 58 |[Length of Last Word][58] |[![c]][58sc]  |[Easy][e] |  |
-| 66 |[Plus One][66] |[![c]][66sc]&nbsp;&nbsp;[![j]][66sj]  |[Easy][e] |  |
-| 67 |[Add Binary][67] |[![c]][67sc]  |[Easy][e] |  |
-| 69 |[Sqrt(x)][69] |[![c]][69sc]  |[Easy][e] |  |
-| 70 |[Climbing Stairs][70] |[![c]][70sc]&nbsp;&nbsp;[![j]][70sj]  |[Easy][e] |  |
-| 79 |[Word Search][79] |[![c]][79sc]&nbsp;&nbsp;[![j]][79sj]  |[Medium][m] |  |
-| 83 |[Remove Duplicates from Sorted List][83] |[![c++]][83scp]&nbsp;&nbsp;[![j]][83sj] |[Easy][e] |  |
-| 88 |[Merge Sorted Array][88] |[![c]][70sc] |[Easy][e] |  |
-| 100 |[Same Tree][100] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]  |[Easy][e] | Tree |
-| 101 |[Symmetric Tree][101] |![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]   |[Easy][e] |  |
-| 102 |[Binary Tree Level Order Traversal][102] |![c++][]&nbsp;&nbsp;![j][]   |[Easy][e] |  |
-| 104 |[Maximum Depth of Binary Tree][104] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
-| 105 |[Construct Binary Tree from Preorder and Inorder Traversal][105] |[![c++]][105scp]&nbsp;&nbsp;[![j]][105sj] |[Easy][e] |  |
-| 107 |[Binary Tree Level Order Traversal II][107] |![c++][]&nbsp;&nbsp;![j][] |[Easy][e] |  |
-| 108 |[Convert Sorted Array to Binary Search tree][108] |![][c]  ![][j] |[Easy][e] | Recursion |
-| 111 |[Minimum Depth of Binary Tree][111] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
-| 112 |[Path Sum][112] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]   |[Easy][e] | Tree |
-| 113 |[Path Sum II][113] |[![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]   |[Medium][m] | Tree |
-| 116 |[Populating Next Right Pointers in Each Node][116] |![][c++]&nbsp;&nbsp;![][j]   |[Medium][m] | Tree |
-| 117 |[Populating Next Right Pointers in Each Node II][117] |![][c++]&nbsp;&nbsp;![][j]    |[Medium][m] | Tree |
-| 118 |[Pascal's Triangle][118] |[![c]][118sc] |[Easy][e] |  |
-| 119 |[Pascal's Triangle II][119] |[![c]][119sc] |[Easy][e] |  |
-| 121 |[Best Time to Buy and Sell Stock][121] |[![c]][121sc]&nbsp;&nbsp;[![j]][121sj]   |[Easy][e] |  |
-| 122 |[Best Time to Buy and Sell Stock II][122] |[![c]][122sc]&nbsp;&nbsp;[![j]][122sj]  |[Easy][e] |  |
-| 125 |[Valid Palindrome][125] |![][c] |[Easy][e] |  |
-| 155 | [Min Stack][155] | ![][c++]  ![][j] ![][p] | [Easy][e] ||
-| 160 |[Intersection of Two Linked Lists][160] |[![j]][160sj]  |[Easy][e] |  |
-| 167 |[Two Sum II - Input array is sorted][167] |[![c]][167sc]&nbsp;&nbsp;[![j]][167sj]  |[Easy][e] |  |
-| 168 |[Excel Sheet column Title][168] |![][j]|[Easy][e] |  |
-| 169 |[Majority Element][169] |![c++][] ![c][] ![j][] |[Easy][e] |  |
-| 171 |[Excel Sheet Column Number][171] |![][j] ![][p]|[Easy][e] |  |
-| 172 |[Factorial Trailing Zeroes][172] |![][c] ![][j] ![][p]|[Easy][e] |  |
-| 189 |[Rotate Array][189] |[![j]][189sj] |[Easy][e] |  |
-| 190 |[Reverse Bits][190] |![][j] |[Easy][e] |  |
-| 191 |[Number of 1 Bits][191] |![][j] |[Easy][e] |  |
-| 198 |[House Robber][198] |[![c]][198sc]&nbsp;&nbsp;[![j]][198sj]  |[Easy][e] |  |
-| 199 |[Binary Tree Right Side View][199] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
-| 202 |[Happy Number][202] |![][j]  |[Easy][e] |  |
-| 203 |[Remove Linked List Elements][203] |![][c]  ![][j]  |[Easy][e] |  |
-| 204 |[Count Primes][204] |![][c]  ![][j]  |[Easy][e] |  |
-| 205 |[Isomorphic Strings][205] |![][j]  |[Easy][e] |  |
-| 206 |[Reverse Linked List][206] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
-| 217 |[Contains Duplicate][217] |[![j]][217sj]  |[Easy][e] |  |
-| 219 |[Contains Duplicate II][219] |[![j]][219sj]  |[Easy][e] |  |
-| 225 |[Implement Stack using Queues][225] |![][j] |[Easy][e] |  |
-| 226 |[Invert Binary Tree][226] |[![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]  |[Easy][e] |  |
-| 228 |[Summary Ranges][228] |![][j] |[Easy][e] |  |
-| 231 |[Power of Two][231] |![][c]  ![][j]  ![][p]  |[Easy][e] |  |
-| 232 |[Implement Queue using Stacks][232] |![][j] |[Easy][e] |  |
-| 234 |[Palindrome Linked List][234] |![][j] |[Easy][e] |  |
-| 235 |[Lowest Common Ancestor of a Binary Search Tree][235] |![][j] |[Easy][e] |  |
-| 237 |[Delete Node in a Linked List][237] |![][c]  ![][j]  ![][p] |[Easy][e] |  |
-| 242 |[Valid Anagram][242] |![][c]  ![][j] |[Easy][e] |  |
-| 257 |[Binary Tree Paths][257] |![][c++]  ![][j] |[Easy][e] |  |
-| 258 |[Add Digits][258] |![][c++]  ![][j] |[Easy][e] |  |
-| 263 |[Ugly Number][263] |![][j]  |[Easy][e] |  |
-| 264 |[Ugly Number II][264] |[![j]][264sj]&nbsp;&nbsp;[![p]][264sp]  |[Medium][m] |  |
-| 268 |[Missing Number][268] |[![j]][268sj] |[Easy][e] |  |
-| 278 |[First Bad Version][278] |![][c]  ![][j]  ![][p] |[Easy][e] |  |
-| 283 |[Move Zeroes][283] |![][c]  ![][j]  |[Easy][e] |  |
-| 295 |:star:  ​ [Find Median from Data Stream][295] |[![c++]][295scp]&nbsp;&nbsp;[![j]][295sj] |[Hard][h] |  |
-| 297 |:star:  ​ [Serialize and Deserialize Binary Tree][297] |[![j]][297sj] |[Hard][h] |  |
-| 303 |[Range Sum Query - Immutable][303] |[![c]][303sc]&nbsp;&nbsp;[![j]][303sj]  |[Easy][e] |  |
-| 400 |[Nth Digit][400] |[![j]][400sj]  |[Medium][m] |  |
-| 414 |[Third Maximum Number][414] |[![j]][414sj]  |[Easy][e] |  |
-| 426 |[Convert Binary Search Tree to Sorted Doubly Linked List][426] |[![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]  |[Medium][m] |  |
-| 429 |[N-ary Tree Level Order Traversal][429] |![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
-| 448 |[Find All Numbers Disappeared In An Array][448] |[![j]][448sj]  |[Easy][e] |  |
-| 485 |[Max Consecutive Ones][485] |[![c]][485sc]&nbsp;&nbsp;[![j]][485sj]  |[Easy][e] |  |
-| 509 |[Fibonacci Number][509] |[![j]][509sj]  |[Easy][e] |  |
-| 515 |[Find Largest Value in Each Tree Row][515] | ![c++][]&nbsp;&nbsp;![j][] |[Medium][m] |  |
-| 561 |[Array Partition I][561] |[![j]][561sj]  |[Easy][e] |  |
-| 566 |[Reshape the Matrix][566] |[![c]][566sc]&nbsp;&nbsp;[![j]][566sj]  |[Easy][e] |  |
-| 581 |[Shortest Unsorted Continuous Subarray][581] |[![j]][581sj]  |[Easy][e] |  |
-| 589 |[N-ary Tree Preorder Traversal][589] |![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
-| 605 |[Can Place Flowers][605] |[![j]][605sj]  |[Easy][e] |  |
-| 606 |[Construct String from Binary Tree][606] |![][c++]&nbsp;&nbsp;![][j]  |[Easy][e] |  |
-| 617 |[Merge Two Binary Trees][617] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
-| 628 |[Maximum Product of Three Numbers][628] |[![j]][628sj]  |[Easy][e] |  |
-| 637 |[Average of Levels in Binary Tree][637] | ![c++][]&nbsp;&nbsp;![j][] |[Easy][e] |  |
-| 746 |[Min Cost Climbing Stairs][746] |[![c]][746sc]&nbsp;&nbsp;[![j]][746sj]  |[Easy][e] |  |
-| 747 |[Largest Number At Least Twice of Others][747] |[![j]][747sj]  |[Easy][e] |  |
-| 766 |[Toeplitz Matrix][766] |[![j]][766sj]  |[Easy][e] |  |
-| 830 |[Positions of Large Groups][830] |[![j]][830sj]  |[Easy][e] |  |
-| 832 |[Flipping an Image][832] |[![j]][832sj]  |[Easy][e] |  |
-| 867 |[Transpose Matrix][867] |[![c]][867sc]&nbsp;&nbsp;[![j]][867sj]  |[Easy][e] |  |
-| 905 |[Sort Array By Parity][905] |[![j]][905sj]  |[Easy][e] |  |
-| 922 |[Sort Array By Parity II][922] |[![j]][922sj]  |[Easy][e] |  |
-| 1022 |[Sum of Root To Leaf Binary Numbers][1022] |![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]  |[Easy][e] | Tree |
-| 1025 |[Divisor Game][1025] |[![j]][1025sj]  |[Easy][e] |  |
-| 1207 |[Unique Number of Occurrences][1207] |![][c++]![][j]	|[Easy][e] |  |
-
-
-
-
+| #    | Title                                                            | Solutions                                                                        | Difficulty  | Tags      |
+| ---- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------- | --------- |
+| 1    | [Two Sum][1]                                                     | [![c]][1sc]&nbsp;&nbsp;[![p]][1sp]&nbsp;&nbsp;[![r]][1sr]                        | [Easy][e]   |           |
+| 7    | [Reverse Integer][7]                                             | [![c]][7sc]&nbsp;&nbsp;[![p]][7sp]                                               | [Easy][e]   |           |
+| 9    | [Palindrome Number][9]                                           | [![c]][9sc]&nbsp;&nbsp;[![p]][9sp]                                               | [Easy][e]   |           |
+| 11   | [Container With Most Water][11]                                  | [![c]][11sc]&nbsp;&nbsp;[![r]][11sr]                                             | [Medium][m] |           |
+| 15   | [3Sum][15]                                                       | ![][j]                                                                           | [Medium][m] |           |
+| 20   | [Valid Parentheses][20]                                          | [![c]][20sc]                                                                     | [Easy][e]   |           |
+| 21   | [Merge Two Sorted Lists][21]                                     | [![c]][21sc]                                                                     | [Easy][e]   |           |
+| 23   | [Merge k Sorted Lists][23]                                       | ![][j]                                                                           | [Hard][h]   |           |
+| 26   | [Remove Duplicates from Sorted Array][26]                        | [![c]][26sc]                                                                     | [Easy][e]   |           |
+| 27   | [Remove Element][27]                                             | [![c]][27sc]                                                                     | [Easy][e]   |           |
+| 28   | [Implement strStr()][28]                                         | [![c]][28sc]                                                                     | [Easy][e]   |           |
+| 34   | [Find First and Last Position of Element in Sorted Array][34]    | [![j]][34sj]                                                                     | [Medium][m] |           |
+| 35   | [Search Insert Position][35]                                     | [![c]][35sc]                                                                     | [Easy][e]   |           |
+| 38   | [Count and Say][38]                                              | [![c]][38sc]                                                                     | [Easy][e]   |           |
+| 53   | [Maximum Subarray][53]                                           | [![c]][53sc]&nbsp;&nbsp;[![j]][53sj]&nbsp;&nbsp;[![p]][53sp]                     | [Easy][e]   |           |
+| 58   | [Length of Last Word][58]                                        | [![c]][58sc]                                                                     | [Easy][e]   |           |
+| 66   | [Plus One][66]                                                   | [![c]][66sc]&nbsp;&nbsp;[![j]][66sj]                                             | [Easy][e]   |           |
+| 67   | [Add Binary][67]                                                 | [![c]][67sc]                                                                     | [Easy][e]   |           |
+| 69   | [Sqrt(x)][69]                                                    | [![c]][69sc]                                                                     | [Easy][e]   |           |
+| 70   | [Climbing Stairs][70]                                            | [![c]][70sc]&nbsp;&nbsp;[![j]][70sj]                                             | [Easy][e]   |           |
+| 79   | [Word Search][79]                                                | [![c]][79sc]&nbsp;&nbsp;[![j]][79sj]                                             | [Medium][m] |           |
+| 83   | [Remove Duplicates from Sorted List][83]                         | [![c++]][83scp]&nbsp;&nbsp;[![j]][83sj]                                          | [Easy][e]   |           |
+| 88   | [Merge Sorted Array][88]                                         | [![c]][70sc]                                                                     | [Easy][e]   |           |
+| 100  | [Same Tree][100]                                                 | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]                   | [Easy][e]   | Tree      |
+| 101  | [Symmetric Tree][101]                                            | ![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]                                     | [Easy][e]   |           |
+| 102  | [Binary Tree Level Order Traversal][102]                         | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Easy][e]   |           |
+| 104  | [Maximum Depth of Binary Tree][104]                              | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p] | [Easy][e]   | Tree      |
+| 105  | [Construct Binary Tree from Preorder and Inorder Traversal][105] | [![c++]][105scp]&nbsp;&nbsp;[![j]][105sj]                                        | [Easy][e]   |           |
+| 107  | [Binary Tree Level Order Traversal II][107]                      | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Easy][e]   |           |
+| 108  | [Convert Sorted Array to Binary Search tree][108]                | ![][c]  ![][j]                                                                   | [Easy][e]   | Recursion |
+| 111  | [Minimum Depth of Binary Tree][111]                              | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p] | [Easy][e]   | Tree      |
+| 112  | [Path Sum][112]                                                  | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p] | [Easy][e]   | Tree      |
+| 113  | [Path Sum II][113]                                               | [![c++]][113scp]&nbsp;&nbsp;[![j]][113sj]                                        | [Medium][m] | Tree      |
+| 116  | [Populating Next Right Pointers in Each Node][116]               | ![][c++]&nbsp;&nbsp;![][j]                                                       | [Medium][m] | Tree      |
+| 117  | [Populating Next Right Pointers in Each Node II][117]            | ![][c++]&nbsp;&nbsp;![][j]                                                       | [Medium][m] | Tree      |
+| 118  | [Pascal's Triangle][118]                                         | [![c]][118sc]                                                                    | [Easy][e]   |           |
+| 119  | [Pascal's Triangle II][119]                                      | [![c]][119sc]                                                                    | [Easy][e]   |           |
+| 121  | [Best Time to Buy and Sell Stock][121]                           | [![c]][121sc]&nbsp;&nbsp;[![j]][121sj]                                           | [Easy][e]   |           |
+| 122  | [Best Time to Buy and Sell Stock II][122]                        | [![c]][122sc]&nbsp;&nbsp;[![j]][122sj]                                           | [Easy][e]   |           |
+| 125  | [Valid Palindrome][125]                                          | ![][c]                                                                           | [Easy][e]   |           |
+| 155  | [Min Stack][155]                                                 | ![][c++]  ![][j] ![][p]                                                          | [Easy][e]   |           |
+| 160  | [Intersection of Two Linked Lists][160]                          | [![j]][160sj]                                                                    | [Easy][e]   |           |
+| 167  | [Two Sum II - Input array is sorted][167]                        | [![c]][167sc]&nbsp;&nbsp;[![j]][167sj]                                           | [Easy][e]   |           |
+| 168  | [Excel Sheet column Title][168]                                  | ![][j]                                                                           | [Easy][e]   |           |
+| 169  | [Majority Element][169]                                          | ![c++][] ![c][] ![j][]                                                           | [Easy][e]   |           |
+| 171  | [Excel Sheet Column Number][171]                                 | ![][j] ![][p]                                                                    | [Easy][e]   |           |
+| 172  | [Factorial Trailing Zeroes][172]                                 | ![][c] ![][j] ![][p]                                                             | [Easy][e]   |           |
+| 189  | [Rotate Array][189]                                              | [![j]][189sj]                                                                    | [Easy][e]   |           |
+| 190  | [Reverse Bits][190]                                              | ![][j]                                                                           | [Easy][e]   |           |
+| 191  | [Number of 1 Bits][191]                                          | ![][j]                                                                           | [Easy][e]   |           |
+| 198  | [House Robber][198]                                              | [![c]][198sc]&nbsp;&nbsp;[![j]][198sj]                                           | [Easy][e]   |           |
+| 199  | [Binary Tree Right Side View][199]                               | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Medium][m] |           |
+| 202  | [Happy Number][202]                                              | ![][j]                                                                           | [Easy][e]   |           |
+| 203  | [Remove Linked List Elements][203]                               | ![][c]  ![][j]                                                                   | [Easy][e]   |           |
+| 204  | [Count Primes][204]                                              | ![][c]  ![][j]                                                                   | [Easy][e]   |           |
+| 205  | [Isomorphic Strings][205]                                        | ![][j]                                                                           | [Easy][e]   |           |
+| 206  | [Reverse Linked List][206]                                       | ![][c]  ![][j]  ![][p]                                                           | [Easy][e]   |           |
+| 217  | [Contains Duplicate][217]                                        | [![j]][217sj]                                                                    | [Easy][e]   |           |
+| 219  | [Contains Duplicate II][219]                                     | [![j]][219sj]                                                                    | [Easy][e]   |           |
+| 225  | [Implement Stack using Queues][225]                              | ![][j]                                                                           | [Easy][e]   |           |
+| 226  | [Invert Binary Tree][226]                                        | [![c++]][226scp]&nbsp;&nbsp;[![j]][226sj]                                        | [Easy][e]   |           |
+| 228  | [Summary Ranges][228]                                            | ![][j]                                                                           | [Easy][e]   |           |
+| 231  | [Power of Two][231]                                              | ![][c]  ![][j]  ![][p]                                                           | [Easy][e]   |           |
+| 232  | [Implement Queue using Stacks][232]                              | ![][j]                                                                           | [Easy][e]   |           |
+| 234  | [Palindrome Linked List][234]                                    | ![][j]                                                                           | [Easy][e]   |           |
+| 235  | [Lowest Common Ancestor of a Binary Search Tree][235]            | ![][j]                                                                           | [Easy][e]   |           |
+| 237  | [Delete Node in a Linked List][237]                              | ![][c]  ![][j]  ![][p]                                                           | [Easy][e]   |           |
+| 242  | [Valid Anagram][242]                                             | ![][c]  ![][j]                                                                   | [Easy][e]   |           |
+| 257  | [Binary Tree Paths][257]                                         | ![][c++]  ![][j]                                                                 | [Easy][e]   |           |
+| 258  | [Add Digits][258]                                                | ![][c++]  ![][j]                                                                 | [Easy][e]   |           |
+| 263  | [Ugly Number][263]                                               | ![][j]                                                                           | [Easy][e]   |           |
+| 264  | [Ugly Number II][264]                                            | [![j]][264sj]&nbsp;&nbsp;[![p]][264sp]                                           | [Medium][m] |           |
+| 268  | [Missing Number][268]                                            | [![j]][268sj]                                                                    | [Easy][e]   |           |
+| 278  | [First Bad Version][278]                                         | ![][c]  ![][j]  ![][p]                                                           | [Easy][e]   |           |
+| 283  | [Move Zeroes][283]                                               | ![][c]  ![][j]                                                                   | [Easy][e]   |           |
+| 295  | :star:  ​ [Find Median from Data Stream][295]                    | [![c++]][295scp]&nbsp;&nbsp;[![j]][295sj]                                        | [Hard][h]   |           |
+| 297  | :star:  ​ [Serialize and Deserialize Binary Tree][297]           | [![j]][297sj]                                                                    | [Hard][h]   |           |
+| 303  | [Range Sum Query - Immutable][303]                               | [![c]][303sc]&nbsp;&nbsp;[![j]][303sj]                                           | [Easy][e]   |           |
+| 400  | [Nth Digit][400]                                                 | [![j]][400sj]                                                                    | [Medium][m] |           |
+| 414  | [Third Maximum Number][414]                                      | [![j]][414sj]                                                                    | [Easy][e]   |           |
+| 426  | [Convert Binary Search Tree to Sorted Doubly Linked List][426]   | [![c++]][426scp]&nbsp;&nbsp;[![j]][426sj]                                        | [Medium][m] |           |
+| 429  | [N-ary Tree Level Order Traversal][429]                          | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Medium][m] |           |
+| 448  | [Find All Numbers Disappeared In An Array][448]                  | [![j]][448sj]                                                                    | [Easy][e]   |           |
+| 485  | [Max Consecutive Ones][485]                                      | [![c]][485sc]&nbsp;&nbsp;[![j]][485sj]                                           | [Easy][e]   |           |
+| 509  | [Fibonacci Number][509]                                          | [![j]][509sj]                                                                    | [Easy][e]   |           |
+| 515  | [Find Largest Value in Each Tree Row][515]                       | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Medium][m] |           |
+| 561  | [Array Partition I][561]                                         | [![j]][561sj]                                                                    | [Easy][e]   |           |
+| 566  | [Reshape the Matrix][566]                                        | [![c]][566sc]&nbsp;&nbsp;[![j]][566sj]                                           | [Easy][e]   |           |
+| 581  | [Shortest Unsorted Continuous Subarray][581]                     | [![j]][581sj]                                                                    | [Easy][e]   |           |
+| 589  | [N-ary Tree Preorder Traversal][589]                             | ![][j]&nbsp;&nbsp;![][p]                                                         | [Easy][e]   | Tree      |
+| 605  | [Can Place Flowers][605]                                         | [![j]][605sj]                                                                    | [Easy][e]   |           |
+| 606  | [Construct String from Binary Tree][606]                         | ![][c++]&nbsp;&nbsp;![][j]                                                       | [Easy][e]   |           |
+| 617  | [Merge Two Binary Trees][617]                                    | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p] | [Easy][e]   | Tree      |
+| 628  | [Maximum Product of Three Numbers][628]                          | [![j]][628sj]                                                                    | [Easy][e]   |           |
+| 637  | [Average of Levels in Binary Tree][637]                          | ![c++][]&nbsp;&nbsp;![j][]                                                       | [Easy][e]   |           |
+| 746  | [Min Cost Climbing Stairs][746]                                  | [![c]][746sc]&nbsp;&nbsp;[![j]][746sj]                                           | [Easy][e]   |           |
+| 747  | [Largest Number At Least Twice of Others][747]                   | [![j]][747sj]                                                                    | [Easy][e]   |           |
+| 766  | [Toeplitz Matrix][766]                                           | [![j]][766sj]                                                                    | [Easy][e]   |           |
+| 830  | [Positions of Large Groups][830]                                 | [![j]][830sj]                                                                    | [Easy][e]   |           |
+| 832  | [Flipping an Image][832]                                         | [![j]][832sj]                                                                    | [Easy][e]   |           |
+| 867  | [Transpose Matrix][867]                                          | [![c]][867sc]&nbsp;&nbsp;[![j]][867sj]                                           | [Easy][e]   |           |
+| 905  | [Sort Array By Parity][905]                                      | [![j]][905sj]                                                                    | [Easy][e]   |           |
+| 922  | [Sort Array By Parity II][922]                                   | [![j]][922sj]                                                                    | [Easy][e]   |           |
+| 1022 | [Sum of Root To Leaf Binary Numbers][1022]                       | ![][c]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][j]&nbsp;&nbsp;![][p]                   | [Easy][e]   | Tree      |
+| 1025 | [Divisor Game][1025]                                             | [![j]][1025sj]                                                                   | [Easy][e]   |           |
+| 1207 | [Unique Number of Occurrences][1207]                             | ![][c++]![][j]                                                                   | [Easy][e]   |           |
 
 ---
-## 剑指Offer 
-| #    | Titile                 | Tags | Solutions |
-| ---- | ---------------------- | ------------ | ------------ |
-| 3    | [数组中重复的数字][3o] | 数组、二分法 | ![][j] |
-| 4    | [二维数组中的查找][4o] | 二维数组     | ![][j] |
-| 5    | [替换空格][5o]         | 字符串       | ![][j] |
-| 6    | [从头到尾打印链表][6o]         | 链表、栈       | ![][j] |
-| 7    | [重建二叉树][7o]         | 树       | ![][j] |
-| 8    | [二叉树的下一个节点][8o]         | 二叉搜索树 | ![][j] |
-| 9    | [用两个栈实现队列][9o]         | 栈、队列 | ![][j] |
-| 10   | [斐波那契数列][509]         | 递归、遍历 | ![][j] |
-| 11   | [旋转数组的最小数组][11o]         | 查找和排序 | ![][j] |
-| 12 | :star:  ​[矩阵中的路径][12o] | 回溯法 | ![][j] |
-| 13 | [机器人的运动范围][13o] | 回溯法 | ![][j] |
-| 14 | :star:  ​[剪绳子][14o] | 动态规划、贪婪算法 | ![][j] |
-| 15 | [二进制中1的个数][15o] | 位运算 | ![][j] |
-| 16 | :star: ​[数值的整数次方][16o] |  | ![][j] |
-| 17 | :star: ​[打印从1到最大的n位数][17o] |大数、递归  |![][j]  |
-| 20 | :star: ​[表示数值的字符串][20o] | 考察思维全面性 | ![][j] |
-| 21 | [调整数组顺序使奇数位于偶数前面][21o] | 双指针、鲁棒性	| ![][j]	|
-| 22 | [链表中倒数第k个节点][22o] | 	 | ![][j] |
-| 23 | [链表中环的入口节点][23o] | 	 | ![][j] |
-| 24 | [反转链表][24o] | 	 | ![][j] |
-| 25 | [合并两个排序的链表][25o] | 	 | ![][j] |
-| 26 | [树的子结构][26o] |  | ![][j] |
-| 27 | [二叉树的镜像][27o] |  	 | ![][j] |
-| 28 | [对称二叉树][28o] | 	 | ![][j] |
-| 29 | [顺时针打印矩阵][29o] | 	 | ![][j] |
-| 30 | [包含min函数的栈][30o] | 	 | ![][j] |
-| 32 | [从上到下打印二叉树][32o] | 	 | ![][j] |
-| 32.1 | [从上到下打印二叉树II][32.1o] | 	 | ![][j] |
-| 32.2 | :star: ​[从上到下打印二叉树III][32.2o] | 双端队列/栈	| ![][j]	|
-| 33 | [二叉搜索树的后续遍历序列][33o] | 	 | ![][j] |
-| 34 | [二叉树中和为某一值的路径][34o] | 	 | ![][j] |
-| 36 | [二叉搜索树与双向链表][36o]      [:us:][426] | 中序遍历	 | ![][j]	|
-| 37 | :star:  [序列化二叉树][37o]       [:us:][297] | BFS、DFS | ![][j] |
-| 38 | [字符串的排列][38o] | 	 | ![][j] |
-| 39 | [数组中出现次数超过一半的数字][39o] | 	 | ![][j] |
-| 40 | [最小的k个数][40o] | 	 | ![][j] |
-| 41 | [数据流中的中位数][41o] | 	 | ![][j]&nbsp;&nbsp;![][c++] |
-| 42 | [连续子数组最大和][42o] | 	 | ![][j] |
-| 44 | [数字序列中某一位的数字][44o]   [:us:][400] |  | ![][j] |
-| 45 | [把数组换成最小的数][45o]    |  | ![][j] |
-| 46 | [把数字翻译成字符串][46o]    | 递归 | ![][j] |
-| 47 | [礼物的最大价值][47o]    |  | ![][j] |
-| 48 | [最长不含重复字符的子字符串][48o]    |  | ![][j] |
-| 49 | [丑数][49o]   [:us:][264] |  | ![][j]&nbsp;&nbsp;![][p] |
-| 50 | [第一个只出现一次的字符][50o]    |  | ![][j] |
-| 51 | [数组中逆序对][51o]    | Hard | ![][j] |
-| 52 | [两个链表的第一个公共节点][52o]    |  | ![][j] |
-| 53 | [在排序数组中查找数字][53o]    |  | ![][j] |
-| 53.1 | [0~n-1中缺失的数字][53.1o]    |  | ![][j] |
-| 54 | [二叉搜索树中最大k节点][54o]    |  | ![][j] |
-| 55 | [二叉树的深度][55o]    |  | ![][j]&nbsp;&nbsp;![][c++] |
-| 55.1 | [平衡二叉树][55.1o]    |  | ![][j] |
-| 56 | [数组中只出现一次的两个数字][56o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-| 56.1 | [数组中唯一只出现一次的数字][56.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-| 57 | [和为s的数字][57o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-| 57.1 | [和为s的连续正数序列][57.1o]    |  | ![][j]&nbsp;&nbsp;![][k] |
-| 58 | [翻转单词顺序][58o]    |  | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k] |
-| 58.1 | [左旋转字符串][58.1o]    |  | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k] |
-| 61 | [扑克牌中的顺子][61o]    |  | ![][j]&nbsp;&nbsp;![][c++]|
-| 62 | [圆圈中最后剩下的数字][62o]    |  | ![][j]&nbsp;&nbsp;![][c++]|
-| 63 | [股票的最大利润][63o]    |  | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p]|
 
+## 剑指Offer
+
+| #    | Titile                                  | Tags      | Solutions                                                      |
+| ---- | --------------------------------------- | --------- | -------------------------------------------------------------- |
+| 3    | [数组中重复的数字][3o]                          | 数组、二分法    | ![][j]                                                         |
+| 4    | [二维数组中的查找][4o]                          | 二维数组      | ![][j]                                                         |
+| 5    | [替换空格][5o]                              | 字符串       | ![][j]                                                         |
+| 6    | [从头到尾打印链表][6o]                          | 链表、栈      | ![][j]                                                         |
+| 7    | [重建二叉树][7o]                             | 树         | ![][j]                                                         |
+| 8    | [二叉树的下一个节点][8o]                         | 二叉搜索树     | ![][j]                                                         |
+| 9    | [用两个栈实现队列][9o]                          | 栈、队列      | ![][j]                                                         |
+| 10   | [斐波那契数列][509]                           | 递归、遍历     | ![][j]                                                         |
+| 11   | [旋转数组的最小数组][11o]                        | 查找和排序     | ![][j]                                                         |
+| 12   | :star:  ​[矩阵中的路径][12o]                  | 回溯法       | ![][j]                                                         |
+| 13   | [机器人的运动范围][13o]                         | 回溯法       | ![][j]                                                         |
+| 14   | :star:  ​[剪绳子][14o]                     | 动态规划、贪婪算法 | ![][j]                                                         |
+| 15   | [二进制中1的个数][15o]                         | 位运算       | ![][j]                                                         |
+| 16   | :star: ​[数值的整数次方][16o]                  |           | ![][j]                                                         |
+| 17   | :star: ​[打印从1到最大的n位数][17o]              | 大数、递归     | ![][j]                                                         |
+| 20   | :star: ​[表示数值的字符串][20o]                 | 考察思维全面性   | ![][j]                                                         |
+| 21   | [调整数组顺序使奇数位于偶数前面][21o]                  | 双指针、鲁棒性   | ![][j]                                                         |
+| 22   | [链表中倒数第k个节点][22o]                       |           | ![][j]                                                         |
+| 23   | [链表中环的入口节点][23o]                        |           | ![][j]                                                         |
+| 24   | [反转链表][24o]                             |           | ![][j]                                                         |
+| 25   | [合并两个排序的链表][25o]                        |           | ![][j]                                                         |
+| 26   | [树的子结构][26o]                            |           | ![][j]                                                         |
+| 27   | [二叉树的镜像][27o]                           |           | ![][j]                                                         |
+| 28   | [对称二叉树][28o]                            |           | ![][j]                                                         |
+| 29   | [顺时针打印矩阵][29o]                          |           | ![][j]                                                         |
+| 30   | [包含min函数的栈][30o]                        |           | ![][j]                                                         |
+| 32   | [从上到下打印二叉树][32o]                        |           | ![][j]                                                         |
+| 32.1 | [从上到下打印二叉树II][32.1o]                    |           | ![][j]                                                         |
+| 32.2 | :star: ​[从上到下打印二叉树III][32.2o]           | 双端队列/栈    | ![][j]                                                         |
+| 33   | [二叉搜索树的后续遍历序列][33o]                     |           | ![][j]                                                         |
+| 34   | [二叉树中和为某一值的路径][34o]                     |           | ![][j]                                                         |
+| 36   | [二叉搜索树与双向链表][36o]      [:us:][426]      | 中序遍历      | ![][j]                                                         |
+| 37   | :star:  [序列化二叉树][37o]       [:us:][297] | BFS、DFS   | ![][j]                                                         |
+| 38   | [字符串的排列][38o]                           |           | ![][j]                                                         |
+| 39   | [数组中出现次数超过一半的数字][39o]                   |           | ![][j]                                                         |
+| 40   | [最小的k个数][40o]                           |           | ![][j]                                                         |
+| 41   | [数据流中的中位数][41o]                         |           | ![][j]&nbsp;&nbsp;![][c++]                                     |
+| 42   | [连续子数组最大和][42o]                         |           | ![][j]                                                         |
+| 44   | [数字序列中某一位的数字][44o]   [:us:][400]        |           | ![][j]                                                         |
+| 45   | [把数组换成最小的数][45o]                        |           | ![][j]                                                         |
+| 46   | [把数字翻译成字符串][46o]                        | 递归        | ![][j]                                                         |
+| 47   | [礼物的最大价值][47o]                          |           | ![][j]                                                         |
+| 48   | [最长不含重复字符的子字符串][48o]                    |           | ![][j]                                                         |
+| 49   | [丑数][49o]   [:us:][264]                 |           | ![][j]&nbsp;&nbsp;![][p]                                       |
+| 50   | [第一个只出现一次的字符][50o]                      |           | ![][j]                                                         |
+| 51   | [数组中逆序对][51o]                           | Hard      | ![][j]                                                         |
+| 52   | [两个链表的第一个公共节点][52o]                     |           | ![][j]                                                         |
+| 53   | [在排序数组中查找数字][53o]                       |           | ![][j]                                                         |
+| 53.1 | [0~n-1中缺失的数字][53.1o]                    |           | ![][j]                                                         |
+| 54   | [二叉搜索树中最大k节点][54o]                      |           | ![][j]                                                         |
+| 55   | [二叉树的深度][55o]                           |           | ![][j]&nbsp;&nbsp;![][c++]                                     |
+| 55.1 | [平衡二叉树][55.1o]                          |           | ![][j]                                                         |
+| 56   | [数组中只出现一次的两个数字][56o]                    |           | ![][j]&nbsp;&nbsp;![][k]                                       |
+| 56.1 | [数组中唯一只出现一次的数字][56.1o]                  |           | ![][j]&nbsp;&nbsp;![][k]                                       |
+| 57   | [和为s的数字][57o]                           |           | ![][j]&nbsp;&nbsp;![][k]                                       |
+| 57.1 | [和为s的连续正数序列][57.1o]                     |           | ![][j]&nbsp;&nbsp;![][k]                                       |
+| 58   | [翻转单词顺序][58o]                           |           | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k]                   |
+| 58.1 | [左旋转字符串][58.1o]                         |           | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k]                   |
+| 61   | [扑克牌中的顺子][61o]                          |           | ![][j]&nbsp;&nbsp;![][c++]                                     |
+| 62   | [圆圈中最后剩下的数字][62o]                       |           | ![][j]&nbsp;&nbsp;![][c++]                                     |
+| 63   | [股票的最大利润][63o]                          |           | ![][j]&nbsp;&nbsp;![][c++]&nbsp;&nbsp;![][k]&nbsp;&nbsp;![][p] |
 
 [p]:./ico/python.ico
 [r]:./ico/rust.ico
@@ -205,7 +203,6 @@ Author:  Alen Zhang
 [c++]:./ico/c++.png
 [j]:./ico/java.png
 [k]:./ico/kotlin.png
-
 
 [e]:./Easy
 [m]:./Medium
@@ -406,7 +403,6 @@ Author:  Alen Zhang
 [922sj]:./Easy/0922-Sort%20Array%20By%20Parity%20II/README.md#solutions-java
 [1025sc]:./Easy/1025-Divisor%20Game/README.md#solutions-c
 [1025sj]:./Easy/1025-Divisor%20Game/README.md#solutions-java
-
 
 [3o]:./Offer/03-数组中重复的数字/README.md
 [4o]:./Offer/04-二维数组中的查找/README.md

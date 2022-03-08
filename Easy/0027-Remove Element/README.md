@@ -50,9 +50,7 @@ for (int i = 0; i < len; i++) {
 
 ## Solutions (C)
 
-
-
-### 1.Two Pointers [1]
+### 1. Two Pointers [1]
 
 ```c
 int removeElement(int* nums, int numsSize, int val){
@@ -69,9 +67,9 @@ int removeElement(int* nums, int numsSize, int val){
 }
 ```
 
-> Runtime: **0 ms** Memory Usage: **7.2 MB**
 
-### 2.Two Pointers [2]
+
+### 2. Two Pointers [2]
 
 ```c
 int removeElement(int* nums, int numsSize, int val){
@@ -86,4 +84,24 @@ int removeElement(int* nums, int numsSize, int val){
 }
 ```
 
-> Runtime: **4 ms** Memory Usage: **7.3 MB**
+
+
+## Solution(C++)
+
+~~~java
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int slowIndex = 0;
+        for (int fastIndex = 0; fastIndex < nums.size(); fastIndex++) {
+            if (val != nums[fastIndex]) {
+                nums[slowIndex++] = nums[fastIndex];
+            }
+        }
+        return slowIndex;
+    }
+};
+~~~
+
+
+
