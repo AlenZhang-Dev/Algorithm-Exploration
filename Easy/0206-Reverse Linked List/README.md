@@ -55,7 +55,6 @@ struct ListNode* reverseList(struct ListNode* head){
  * };
  */
 
-
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode *pre = NULL;
     struct ListNode *cur = head;
@@ -69,6 +68,71 @@ struct ListNode* reverseList(struct ListNode* head){
 }
 ```
 
+
+
+## Solutions(C++)
+
+### 1. Recursion
+
+```c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        return reverse(nullptr, head);
+    }
+
+private:
+    ListNode* reverse(ListNode* pre, ListNode* cur) {
+        if (cur == nullptr) {
+            return pre;
+        }
+        ListNode* temp = cur -> next;
+        cur -> next = pre;
+        return reverse(cur, temp);
+    }
+};
+```
+
+### 2. Iteration
+
+```c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* cur = head;
+        ListNode* pre = nullptr; 
+        ListNode* temp = head;
+
+        while (cur != nullptr) {
+            temp = temp -> next;
+            cur -> next = pre;
+            pre = cur;
+            cur = temp;
+        }
+        return pre;
+    }
+};
+```
 
 
 
